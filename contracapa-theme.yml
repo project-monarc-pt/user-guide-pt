@@ -1,0 +1,31 @@
+# Tema dedicado à contracapa: página A4 inteira com fundo teal CNCS,
+# texto branco, sem cabeçalho/rodapé. Gera um PDF que é depois embebido
+# no documento final via :back-cover-image:.
+extends: default
+font:
+  catalog:
+    merge: true
+    Arial:
+      normal: arial-regular.ttf
+      bold: arial-bold.ttf
+      italic: arial-italic.ttf
+      bold_italic: arial-bold_italic.ttf
+page:
+  background_color: 308AA1   # teal institucional CNCS (fundo à sangria)
+  layout: portrait
+  size: A4
+  margin: [2.2in, 0.67in, 0.9in, 0.67in]
+base:
+  font_family: Arial
+  font_color: FFFFFF
+  align: center
+heading:
+  font_family: Arial
+  font_color: FFFFFF
+  align: center
+link:
+  font_color: FFFFFF
+thematic_break:
+  border_color: FFFFFF
+  border_width: 0.5
+  border_style: solid

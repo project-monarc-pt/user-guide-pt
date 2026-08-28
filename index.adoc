@@ -1,14 +1,16 @@
-= User Guide
-NC3 Luxembourg <info@nc3.lu>
-v{docdate}
-:Date: 2023-01-31
-:Revision:  0.1
-:description: MONARC User guide
+= Guia do Utilizador
+Centro Nacional de Cibersegurança (CNCS)
+{docdate}
+:Date: 2026-07-09
+:description: Guia de início rápido.
 :keywords: risk-analysis, monarc
 :doctype: book
+:theme: Monarc-theme.yml
+:chapter-signifier: Capítulo
 :compat-mode!:
 :page-layout!:
 :toc: left
+:toc-title: Índice
 :toclevels: 2
 :sectanchors:
 :sectlinks:
@@ -16,7 +18,7 @@ v{docdate}
 :linkattrs:
 :webfonts!:
 :icons: font
-:source-highlighter: coderay
+:source-highlighter: highlightjs
 :source-language: asciidoc
 :experimental:
 :stem:
@@ -30,39 +32,49 @@ v{docdate}
 :c: icon:file-text-o[role="blue"]
 :table-caption!:
 :example-caption!:
-:figure-caption!:
+:figure-caption: Figura
+:xrefstyle: full
 :imagesdir: images
 :includedir: _includes
 :underscore: _
 :adp: AsciiDoc Python
 :adr: Asciidoctor
+:revnumber: 1.0
+:notitle:
+:front-cover-image: image:capa.pdf[]
+:back-cover-image: image:contracapa.pdf[]
+
+include::lista-figuras.adoc[]
+
+include::preface.adoc[]
 
 
-== Introduction
+== Introdução
 
 include::{includedir}/Introduction.adoc[]
 
-== Home Page
+== Página Inicial
 
 include::{includedir}/HomePage.adoc[]
 
-== Client Environment Administration
+[#client-environment-administration]
+== Administração do Ambiente do Cliente
 
 include::{includedir}/ClientEnvironmentAdministration.adoc[]
 
-== Analysis Management
+== Gestão da Análise
 
 include::{includedir}/AnalysisManagement.adoc[]
 
-== Evaluation Scales
+== Escalas de Avaliação
 
 include::{includedir}/EvaluationScales.adoc[]
 
-== Management of Knowledge Base
+== Gestão da Base de Conhecimento
 
 include::{includedir}/KnowledgeBase.adoc[]
 
-== Statement of applicability
+== Declaração de Aplicabilidade
 
 include::{includedir}/SOA.adoc[]
 
@@ -70,22 +82,23 @@ include::{includedir}/SOA.adoc[]
 
 include::{includedir}/Dashboard.adoc[]
 
-== Record of processing activities
+== Registo de Atividades de Tratamento
 
 include::{includedir}/RecordsProcessingActivities.adoc[]
 
-== Interviews
+== Entrevistas
 
 include::{includedir}/Interviews.adoc[]
 
+[#snapshots]
 == Snapshots
 
 include::{includedir}/Snapshots.adoc[]
 
-== Managing the Implementation Treatment Plan
+== Gestão do Plano de Tratamento de Implementação
 
 include::{includedir}/ImplementationTreatmentPlan.adoc[]
 
-== Global Dashboard
+== Dashboard Global
 
 include::{includedir}/GlobalDashboard.adoc[]

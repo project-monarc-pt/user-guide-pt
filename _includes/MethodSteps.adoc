@@ -1,8 +1,10 @@
-By clicking on the numbers `1` to `4`, a contextual menu appears.
+Ao clicar nos números _1_ a _4_, aparece um menu contextual.
 
-image::MethodSteps.png[Method Steps,pdfwidth=99%]
+[#fig-methodsteps]
+.Menu contextual dos passos do método
+image::MethodSteps.png[Passos do Método]
 
-1. Ticking boxes change the progress of the method.
-2. Click on the label, and call the contextual management sub-screen.
+1. Marcar as caixas altera o progresso do método.
+2. Clique no rótulo, e abra o subecrã de gestão contextual.
 
-NOTE: More information about method steps. Consult the link:/method-guide[*Method Guide*].
+NOTE: Mais informação sobre os passos do método. Consulte o link:/method-guide[*Guia do Método*].

@@ -1,44 +1,44 @@
+# Estende o tema base do Asciidoctor PDF: herda o catálogo de fontes
+# (Noto Serif, M+ 1mn para código/conums e o fallback), aos quais só
+# acrescentamos o Arial institucional.
+extends: default
 font:
   catalog:
-    # Noto Serif supports Latin, Latin-1 Supplement, Latin Extended-A, Greek, Cyrillic, Vietnamese & an assortment of symbols
-    Noto Serif:
-      normal: notoserif-regular-subset.ttf
-      bold: notoserif-bold-subset.ttf
-      italic: notoserif-italic-subset.ttf
-      bold_italic: notoserif-bold_italic-subset.ttf
-    # M+ 1mn supports ASCII and the circled numbers used for conums
-    M+ 1mn:
-      normal: mplus1mn-regular-ascii-conums.ttf
-      bold: mplus1mn-bold-ascii.ttf
-      italic: mplus1mn-italic-ascii.ttf
-      bold_italic: mplus1mn-bold_italic-ascii.ttf
-    # M+ 1p supports Latin, Latin-1 Supplement, Latin Extended, Greek, Cyrillic, Vietnamese, Japanese & an assortment of symbols
-    # It also provides arrows for ->, <-, => and <= replacements in case these glyphs are missing from font
-    M+ 1p Fallback:
-      normal: mplus1p-regular-fallback.ttf
-      bold: mplus1p-regular-fallback.ttf
-      italic: mplus1p-regular-fallback.ttf
-      bold_italic: mplus1p-regular-fallback.ttf
-  fallbacks:
-    - M+ 1p Fallback
+    merge: true
+    # Arial (fonte institucional CNCS). Regular = arial.ttf real;
+    # bold/italic/bold_italic = Liberation Sans (metric-compatible com Arial).
+    Arial:
+      normal: arial-regular.ttf
+      bold: arial-bold.ttf
+      italic: arial-italic.ttf
+      bold_italic: arial-bold_italic.ttf
 page:
   background_color: ffffff
   layout: portrait
-  margin: [0.5in, 0.67in, 0.67in, 0.67in]
+  margin: [1.0in, 0.67in, 0.67in, 0.67in]
   # margin_inner and margin_outer keys are used for recto/verso print margins when media=prepress
   margin_inner: 0.75in
   margin_outer: 0.59in
   size: A4
+# CNCS institutional palette
+brand:
+  primary: 308AA1   # Azul CNCS (paleta principal)
+  primary_dark: 25697A
+  dark: 231F20      # Preto Cyber (paleta principal)
+  slate: 59717C     # azul-cinza (paleta secundária 03) — código inline
+  info: 308AA1      # caixas de informação (azul/teal)
+  warning: E0A800   # caixas de aviso (amarelo)
+  alert: C0392B     # caixas de alerta (vermelho)
 base:
   align: justify
-  # color as hex string (leading # is optional)
-  font_color: 333333
+  # cor do corpo = Preto Cyber (paleta principal CNCS)
+  font_color: $brand_dark
   # color as RGB array
   #font_color: [51, 51, 51]
   # color as CMYK array (approximated)
   #font_color: [0, 0, 0, 0.92]
   #font_color: [0, 0, 0, 92%]
-  font_family: Noto Serif
+  font_family: Arial
   # choose one of these font_size/line_height_length combinations
   #font_size: 14
   #line_height_length: 20
@@ -68,16 +68,16 @@ horizontal_rhythm: $base_line_height_length
 # QUESTION should vertical_spacing be block_spacing instead?
 vertical_spacing: $vertical_rhythm
 link:
-  font_color: 428bca
+  font_color: $brand_primary
 # literal is currently used for inline monospaced in prose and table cells
 literal:
-  font_color: b12146
+  font_color: $brand_slate
   font_family: M+ 1mn
-menu_caret_content: " <font size=\"1.15em\"><color rgb=\"b12146\">\u203a</color></font> "
+menu_caret_content: " <font size=\"1.15em\"><color rgb=\"59717C\">\u203a</color></font> "
 heading:
   align: left
-  #font_color: 181818
-  font_color: $base_font_color
+  # cor institucional CNCS distingue claramente os títulos do corpo
+  font_color: $brand_primary
   font_family: $base_font_family
   font_style: bold
   # h1 is used for part titles (book doctype only)
@@ -90,17 +90,21 @@ heading:
   h6_font_size: $base_font_size_small
   #line_height: 1.4
   # correct line height for Noto Serif metrics (comes with built-in line height)
-  line_height: 1
-  margin_top: $vertical_rhythm * 0.4
-  margin_bottom: $vertical_rhythm * 0.9
+  line_height: 1.1
+  # espaçamento consistente antes/depois dos títulos + manter título com conteúdo
+  margin_top: $vertical_rhythm * 1.2
+  margin_bottom: $vertical_rhythm * 0.6
+  min_height_after: $base_line_height_length * 2
+  # capítulos, subcapítulos e restantes títulos na mesma cor teal (herdam heading.font_color)
 title_page:
-  align: right
+  background_color: 308AA1
+  align: center
   logo:
     top: 10%
   title:
     top: 55%
     font_size: $heading_h1_font_size
-    font_color: 999999
+    font_color: FFFFFF
     line_height: 0.9
   subtitle:
     font_size: $heading_h3_font_size
@@ -140,13 +144,25 @@ abstract:
     font_style: $heading_font_style
 admonition:
   column_rule_color: $base_border_color
-  column_rule_width: $base_border_width
-  padding: [0, $horizontal_rhythm, 0, $horizontal_rhythm]
-  #icon:
-  #  tip:
-  #    name: fa-lightbulb-o
-  #    stroke_color: 111111
-  #    size: 24
+  column_rule_width: 3
+  border_radius: 4
+  padding: [$vertical_rhythm / 2, $horizontal_rhythm, $vertical_rhythm / 2, $horizontal_rhythm]
+  icon:
+    note:
+      name: fas-info-circle
+      stroke_color: $brand_info
+    tip:
+      name: far-lightbulb
+      stroke_color: $brand_info
+    warning:
+      name: fas-exclamation-triangle
+      stroke_color: $brand_warning
+    caution:
+      name: fas-exclamation-circle
+      stroke_color: $brand_alert
+    important:
+      name: fas-exclamation-circle
+      stroke_color: $brand_alert
   label:
     text_transform: uppercase
     font_style: bold
@@ -230,81 +246,58 @@ table:
   cell_padding: 3
 toc:
   indent: $horizontal_rhythm
-  line_height: 1.4
+  # maior espaçamento para reduzir a densidade visual do índice
+  line_height: 1.9
+  font_color: $brand_dark
   dot_leader:
     #content: ". "
-    font_color: a9a9a9
+    font_color: c9c9c9
     #levels: 2 3
 # NOTE in addition to footer, header is also supported
 footer:
   font_size: $base_font_size_small
-  # NOTE if background_color is set, background and border will span width of page
-  border_color: dddddd
-  border_width: 0.25
+  # cor institucional teal; sem linha horizontal (border_width 0)
+  font_color: $brand_primary
+  border_width: 0
   height: $base_line_height_length * 2.5
   line_height: 1
   padding: [$base_line_height_length / 2, 1, 0, 1]
   vertical_align: top
-  #image_vertical_align: <alignment> or <number>
-  # additional attributes for content:
-  # * {page-count}
-  # * {page-number}
-  # * {document-title}
-  # * {document-subtitle}
-  # * {chapter-title}
-  # * {section-title}
-  # * {section-or-chapter-title}
+  # apenas o número da página, centrado
   recto:
-    #columns: "<50% =0% >50%"
     left:
-      content: 'NC3 Luxembourg'
+      content: ''
+    center:
+      content: '{page-number}'
     right:
-      content: 'Page {page-number} / {page-count}'
-      #content: '{section-or-chapter-title} | {page-number}'
-      #content: '{document-title} | {page-number}'
+      content: ''
   verso:
-    #columns: $footer_recto_columns
     left:
-      content: $footer_recto_left_content
+      content: ''
+    center:
+      content: '{page-number}'
     right:
-      content: $footer_recto_right_content
-      #content: '{page-number} | {chapter-title}'
-    #center:
-    #  content: '{page-number}'
+      content: ''
 header:
   font_size: $base_font_size_small
-  # NOTE if background_color is set, background and border will span width of page
-  border_color: dddddd
-  border_width: 0.25
-  height: $base_line_height_length * 2.5
+  # texto teal institucional; sem linha horizontal (border_width 0)
+  font_color: $brand_primary
+  border_width: 0
+  # altura suficiente para o logótipo respeitar o mínimo de 20mm (~14,7mm de altura)
+  height: $base_line_height_length * 4.5
   line_height: 1
   padding: [$base_line_height_length / 2, 1, 0, 1]
   vertical_align: middle
-  #image_vertical_align: <alignment> or <number>
-  # additional attributes for content:
-  # * {page-count}
-  # * {page-number}
-  # * {document-title}
-  # * {document-subtitle}
-  # * {chapter-title}
-  # * {section-title}
-  # * {section-or-chapter-title}
+  image_vertical_align: middle
   recto:
-    #columns: "<50% =0% >50%"
+    columns: "<70% =0% >30%"
     left:
-      content: 'MONARC: {document-title}'
+      content: '{document-title}'
     right:
-      content: 'v{docdate}'
-      #content: '{section-or-chapter-title} | {page-number}'
-      #content: '{document-title} | {page-number}'
-    #center:
-    #  content: '{page-number}'
+      content: 'image:images/CNCS_positivo.png[CNCS,pdfwidth=20mm]'
   verso:
-    #columns: $footer_recto_columns
-    right:
-      content: $header_recto_right_content
+    columns: "<70% =0% >30%"
     left:
       content: $header_recto_left_content
-      #content: '{page-number} | {chapter-title}'
-    #center:
-    #  content: '{page-number}'
+    right:
+      content: $header_recto_right_content

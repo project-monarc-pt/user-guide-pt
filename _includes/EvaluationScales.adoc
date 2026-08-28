@@ -1,188 +1,223 @@
-To reach the ‘Evaluation scales’ menu, use the contextual menu (three-dot menu) in the top right-hand corner of the application.
+Para chegar ao menu _Escalas de avaliação_, utilize o menu contextual (menu de três pontos) no canto superior direito da aplicação.
 
-image:EvaluationScales_1_800.png[Context Menu]
+[#fig-evaluationscales-1-800]
+.Menu de contexto
+image::EvaluationScales_1_800.png[Menu de contexto,pdfwidth=90%,width=90%,align=center]
 
-Once you click on the three-dot menu, a submenu opens. Choose the submenu ‘Evaluation scales’:
+Depois de clicar no menu de três pontos, abre-se um submenu. Escolha o submenu _Escalas de avaliação_:
 
-image:EvaluationScales_2_400.png[Evaluation Scale Context Menu]
+[#fig-evaluationscales-2-400]
+.Submenu _Escalas de avaliação_
+image::EvaluationScales_2_400.png[Menu de contexto das escalas de avaliação,pdfwidth=40%,width=40%,align=center]
 
-The screen has three tabs as follows:
+O ecrã tem três separadores, conforme descrito a seguir:
 
-1. Information risks
-2. Operational risks
-3. Compliance
+1. Riscos de informação
+2. Riscos operacionais
+3. Conformidade
 
-This chapter is divided into three parts accordingly.
+Este capítulo está dividido em três partes correspondentes.
 
-=== Information risks
+=== Riscos de informação
 
-The `Evaluation scales` window opens which has the following parts (from top to bottom):
+Abre-se a janela _Escalas de avaliação_, que tem as seguintes partes (de cima para baixo):
 
-1.	Impacts and consequences scale
-2.	Likelihood scale
-3.	Vulnerabilities scale
-4.	Acceptance thresholds of information risks
+1.	Escala de impactos e consequências
+2.	Escala de probabilidade
+3.	Escala de vulnerabilidades
+4.	Limiares de aceitação dos riscos de informação
 
-NOTE: All scales are editable and customizable.
+NOTE: Todas as escalas são editáveis e personalizáveis.
 
-WARNING: However, it is no longer permitted to modify scales as soon as an evaluation has been encoded.
+WARNING: Contudo, deixa de ser permitido modificar as escalas a partir do momento em que uma avaliação tenha sido introduzida.
 
-==== Impacts and consequences scale
+==== Escala de impactos e consequências
 
-The first section of the Evaluation scales window is the ‘Impacts and consequences scale’ table. It is a fully customizable table, by clicking on its different parts, you can edit it.
+A primeira secção da janela _Escalas de avaliação_ é a tabela _Escala de impactos e consequências_. É uma tabela totalmente personalizável; ao clicar nas suas diferentes partes, pode editá-la.
 
-image:ImpactScale_1_800.png[Impact Scale]
+[#fig-impactscale-1-800]
+.Escala de impactos e consequências
+image::ImpactScale_1_800.png[Escala de impacto,pdfwidth=90%,width=90%,align=center]
 
-1.	Click to modify the number of scales.
-2.	Click `Show hidden impacts` to show or hide the criteria not used in the analysis.
-3.	Click edit the headings of each scale.
-4.  Click the symbol to hide an unused column.
-5.	Click the `New column name` to add new impact criteria.
+1.	Clique para modificar o número de escalas.
+2.	Clique em _Mostrar impactos ocultos_ para mostrar ou ocultar os critérios não utilizados na análise.
+3.	Clique para editar os títulos de cada escala.
+4.  Clique no símbolo para ocultar uma coluna não utilizada.
+5.	Clique em _Nome da nova coluna_ para adicionar novos critérios de impacto.
 
-Please note that you can edit the headings and the content of the cells by simply clicking on them, allowing you to provide different values or explanations.
+Note que pode editar os títulos e o conteúdo das células simplesmente clicando neles, o que lhe permite indicar diferentes valores ou explicações.
 
-image:ImpactScale_2_800.png[Edit Impact Scale]
+[#fig-impactscale-2-800]
+.Editar a escala de impactos e consequências
+image::ImpactScale_2_800.png[Editar escala de impacto,pdfwidth=90%,width=90%,align=center]
 
-==== Likelihood scale
+[#likelihood-scale]
+==== Escala de probabilidade
 
-The Likelihood scale is the second part of the window. It is a fully customizable table, by clicking on its different parts, you can edit it.
-In the below example, there are only five scale values of the scale between 0-4.
+A escala de probabilidade é a segunda parte da janela. É uma tabela totalmente personalizável; ao clicar nas suas diferentes partes, pode editá-la.
+No exemplo abaixo, existem apenas cinco valores de escala, entre 0 e 4.
 
-image:LikelihoodScale_1_800.png[Likelihood Scale]
+[#fig-likelihoodscale-1-800]
+.Escala de probabilidade
+image::LikelihoodScale_1_800.png[Escala de probabilidade,pdfwidth=90%,width=90%,align=center]
 
-You can modify it easily. Just click on any of the values and give a different value: the Impacts and consequences scale table will change accordingly.
+Pode modificá-la facilmente. Basta clicar em qualquer um dos valores e indicar um valor diferente: a tabela da escala de impactos e consequências altera-se em conformidade.
 
-image:LikelihoodScale_2_800.png[Edit Likelihood Scale]
+[#fig-likelihoodscale-2-800]
+.Editar a escala de probabilidade
+image::LikelihoodScale_2_800.png[Editar escala de probabilidade,pdfwidth=90%,width=90%,align=center]
 
-Just like with the scale values, you can also modify the description/explanation of the values by clicking on them and giving a different description/explanation.
+Tal como acontece com os valores da escala, também pode modificar a descrição/explicação dos valores clicando neles e indicando uma descrição/explicação diferente.
 
-image:LikelihoodScale_3_800.png[Edit Likelihood Scale]
+[#fig-likelihoodscale-3-800]
+.Editar a descrição da escala de probabilidade
+image::LikelihoodScale_3_800.png[Editar escala de probabilidade,pdfwidth=90%,width=90%,align=center]
 
-====  Vulnerability scale
+[#vulnerability-scale]
+====  Escala de vulnerabilidades
 
-The third section of the Evaluation scales window is the ‘Vulnerability scale’ table. 
-It is a fully customizable table, by clicking on its different parts, you can edit it.
+A terceira secção da janela _Escalas de avaliação_ é a tabela _Escala de vulnerabilidades_.
+É uma tabela totalmente personalizável; ao clicar nas suas diferentes partes, pode editá-la.
 
-image:VulnerabilitiesScale_1_800.png[Vulnerability Scale]
+[#fig-vulnerabilitiesscale-1-800]
+.Escala de vulnerabilidades
+image::VulnerabilitiesScale_1_800.png[Escala de vulnerabilidades,pdfwidth=90%,width=90%,align=center]
 
-1.	Click to modify the number of scales.
-2.	Click to edit the heading on each scale (Management identical to the impact scale).
+1.	Clique para modificar o número de escalas.
+2.	Clique para editar o título de cada escala (gestão idêntica à da escala de impacto).
 
-==== Acceptance thresholds
+[#acceptance-thresholds]
+==== Limiares de aceitação
 
-The fourth section of the Evaluation scales window is the ‘Acceptance thresholds’ table. 
-There are two separate tables for acceptability thresholds, as operational risks and information risks are not calculated in the same way.
-Information risks are calculated using three criteria:
+A quarta secção da janela _Escalas de avaliação_ é a tabela _Limiares de aceitação_.
+Existem duas tabelas separadas para os limiares de aceitabilidade, uma vez que os riscos operacionais e os riscos de informação não são calculados da mesma forma.
+Os riscos de informação são calculados utilizando três critérios:
 
-image:AcceptanceThresholds_1_800.png[Acceptance thresholds]
+[#fig-acceptancethresholds-1-800]
+.Limiares de aceitação dos riscos de informação
+image::AcceptanceThresholds_1_800.png[Limiares de aceitação,pdfwidth=90%,width=90%,align=center]
 
-1. Modification of threshold levels of information risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
-2. Information risks are calculated using three criteria: `Impact x Threat x Vulnerability`.
+1. Modificação dos níveis de limiar dos riscos de informação. A tabela apresentada acima (bem como as tabelas de análise de risco) é atualizada automaticamente.
+2. Os riscos de informação são calculados utilizando três critérios: `Impacto x Ameaça x Vulnerabilidade`.
 
 
-=== Operational risk scales
+=== Escalas de riscos operacionais
 
-To reach the ‘Evaluation scales’ menu, use the contextual menu (three-dot menu) in the top right-hand corner of the application and choose the submenu 'Evaluation scales'.
-The Operational risks screen can be reached by clicking on the second tab of the screen 'Operatioanl risks'.
+Para chegar ao menu _Escalas de avaliação_, utilize o menu contextual (menu de três pontos) no canto superior direito da aplicação e escolha o submenu _Escalas de avaliação_.
+O ecrã de _Riscos operacionais_ pode ser acedido clicando no segundo separador do ecrã, _Riscos operacionais_.
 
-The Operational risks screen consists of three parts as follows:
+O ecrã de _Riscos operacionais_ é composto por três partes, a saber:
 
-1. Impact scale
-2. Likelihood scale
-3. Acceptance threshods of operational risks
+1. Escala de impacto
+2. Escala de probabilidade
+3. Limiares de aceitação dos riscos operacionais
 
-==== Impact scale
+==== Escala de impacto
 
-The first table is the Operational Risk Impact Scale. 
-By default, it has 5 levels, but you may edit it by clicking on the number and provide a different value.
-In the below example, the Operational Risk Impact Scale has 5 levels (from zero to 4) and 5 impacts (Reputation, Operational, Legal, Financial, and Personal).
+A primeira tabela é a Escala de impacto dos riscos operacionais.
+Por predefinição, tem 5 níveis, mas pode editá-la clicando no número e indicando um valor diferente.
+No exemplo abaixo, a Escala de impacto dos riscos operacionais tem 5 níveis (de zero a 4) e 5 impactos (Reputação, Operacional, Legal, Financeiro e Pessoal).
 
-image:OpRiskImpactScale_1_800.png[Operational Risk Impact Scale]
+[#fig-opriskimpactscale-1-800]
+.Escala de impacto dos riscos operacionais
+image::OpRiskImpactScale_1_800.png[Escala de impacto dos riscos operacionais,pdfwidth=90%,width=90%,align=center]
 
-1.	Click to modify the number of scales.
-2.	Click `Show hidden impacts` to show or hide the criteria not used in the analysis.
-3.	Click edit the headings of each scale.
-4.  Click the symbol to hide an unused column.
-5.	Click the `New column name` to add new impact criteria.
+1.	Clique para modificar o número de escalas.
+2.	Clique em _Mostrar impactos ocultos_ para mostrar ou ocultar os critérios não utilizados na análise.
+3.	Clique para editar os títulos de cada escala.
+4.  Clique no símbolo para ocultar uma coluna não utilizada.
+5.	Clique em _Adicionar escalas_ para adicionar novos critérios de impacto.
 
-The operational risks impact scales are customisable by modifying the names of any of the existing scale names and adding custom ones.
-The level number can be also adjusted to the value that best fits the organisation's needs.
-Each of the impact levels can have a specific predefined value. 
-The values adjustment has to be started from the bottom to extend the values definition (for example having them set in geometric progression: 0, 1, 2, 4, 8, 16...).
-You can edit the headings and the content of the cells by simply clicking on them, allowing you to provide different values or explanations.
+As escalas de impacto dos riscos operacionais são personalizáveis, modificando os nomes de quaisquer nomes de escala existentes e adicionando nomes personalizados.
+O número de níveis também pode ser ajustado ao valor que melhor se adequa às necessidades da organização.
+Cada um dos níveis de impacto pode ter um valor predefinido específico.
+O ajuste dos valores tem de ser iniciado a partir de baixo para estender a definição dos valores (por exemplo, definindo-os em progressão geométrica: 0, 1, 2, 4, 8, 16...).
+Pode editar os títulos e o conteúdo das células simplesmente clicando neles, o que lhe permite indicar diferentes valores ou explicações.
 
-image:EditOpRisk1.png[Edit Operational Risk Impacts scale cells]
+[#fig-editoprisk1]
+.Editar as células da escala de impacto dos riscos operacionais
+image::EditOpRisk1.png[Editar células da escala de impactos dos riscos operacionais,pdfwidth=50%,width=50%,align=center]
 
-You may make any impact hidden by clicking on the 'eye' icon next to the name of the impact 
+Pode ocultar qualquer impacto clicando no ícone de _olho_ junto ao nome do impacto
 
-image:HideImpacts1.png[Hide Operational Risk Impacts]
+[#fig-hideimpacts1]
+.Ocultar um impacto dos riscos operacionais
+image::HideImpacts1.png[Ocultar impactos dos riscos operacionais,pdfwidth=50%,width=50%,align=center]
 
-and then click on the toggle 'Show hidden impacts' to become grey:
+e, em seguida, clicar no botão de alternância _Mostrar impactos ocultos_ para que fique cinzento:
 
-image:HideImpacts2.png[Hide Operational Risk Impacts]
-
-
-==== Likelihood scale
-
-The second table is the Operational Risk Likelihood scale:
-
-image:OpRiskLikelihoodScale1_800.png[Operational Risk Likelihood scale]
-
-By default, it has 4 levels, but you may edit it by clicking on the number and provide a different value.
-
-image:OpRiskLikelihoodScale2_800.png[Edit Operational Risk Likelihood scale]
-
-Also, you can edit the content of the cells by simply clicking on them, allowing you to provide a different explanation.
-
-image:OpRiskLikelihoodScale3_800.png[Edit Operational Risk Likelihood scale]
-
-==== Acceptance threshods of operational risks
-
-The third table is the Acceptance thresholds for operational risks.
-
-image:AcceptanceThresholds_2_800.png[Acceptance thresholds]
-
-1. Modification of threshold levels of operational risks. The table displayed above (as well as the risk analysis tables) is updated automatically.
-2. Operational risks are calculated using two criteria: `Impact x Probability`.
-
-=== Compliance
-
-The third tab on the top of the screen is 'Compliance'.
-
-image:Compliance_1_800.png[Compliance table]
-
-The compliance levels configuration is created to allow customisation of the “Statement of Applicability” levels and define the colours of the records highlighting when the level is selected in the table.
-The number of levels is customisable and the colour selection is done from the colours palette.
-By default, there are six levels of the Compliance scale but it can be modified simply by clicking on the level number:
-
-image:Compliance_2_800.png[Edit Compliance table - Edit the number of compliance scale levels]
-
-All cells in the table can be modified by clicking on the given cell. 
-You can modify the first column by changing the compliance scale level (described above).
-You can also edit any cells of the second column (Level of compliance):
-
-image:Compliance_3_800.png[Edit Compliance table - Level of compliance]
-
-If you want to change colour of a certain level of compliance, click on the relevant cell in the colour column.
-Then choose a different colour from the palette:
-
-image:Compliance_4_800.png[Edit Compliance table - Change the colour representation of the Level of compliance]
-
-Since the colour for the level 'Initial' and 'Managed' were very similar (orange shade), let's change the colour for the level of 'Managed' to blue:
-
-image:Compliance_5_800.png[Edit Compliance table - Change the colour of compliance]
+[#fig-hideimpacts2]
+.Botão _Mostrar impactos ocultos_ desativado
+image::HideImpacts2.png[Ocultar impactos dos riscos operacionais,pdfwidth=50%,width=50%,align=center]
 
 <<<
 
+==== Escala de probabilidade
 
+A segunda tabela é a Escala de probabilidade dos riscos operacionais:
 
+[#fig-oprisklikelihoodscale1-800]
+.Escala de probabilidade dos riscos operacionais
+image::OpRiskLikelihoodScale1_800.png[Escala de probabilidade dos riscos operacionais,pdfwidth=90%,width=90%,align=center]
 
+Por predefinição, tem 4 níveis, mas pode editá-la clicando no número e indicando um valor diferente.
 
+[#fig-oprisklikelihoodscale2-800]
+.Editar a escala de probabilidade dos riscos operacionais
+image::OpRiskLikelihoodScale2_800.png[Editar escala de probabilidade dos riscos operacionais,pdfwidth=80%,width=80%,align=center]
 
+Também pode editar o conteúdo das células simplesmente clicando neles, o que lhe permite indicar uma explicação diferente.
 
+[#fig-oprisklikelihoodscale3-800]
+.Editar a descrição da escala de probabilidade dos riscos operacionais
+image::OpRiskLikelihoodScale3_800.png[Editar escala de probabilidade dos riscos operacionais,pdfwidth=80%,width=80%,align=center]
 
+==== Limiares de aceitação dos riscos operacionais
 
+A terceira tabela é a dos limiares de aceitação dos riscos operacionais.
 
+[#fig-acceptancethresholds-2-800]
+.Limiares de aceitação dos riscos operacionais
+image::AcceptanceThresholds_2_800.png[Limiares de aceitação,pdfwidth=80%,width=80%,align=center]
 
+1. Modificação dos níveis de limiar dos riscos operacionais. A tabela apresentada acima (bem como as tabelas de análise de risco) é atualizada automaticamente.
+2. Os riscos operacionais são calculados utilizando dois critérios: `Impacto x Probabilidade`.
 
+=== Conformidade
 
+O terceiro separador no topo do ecrã é _Conformidade_.
+
+[#fig-compliance-1-800]
+.Tabela de conformidade
+image::Compliance_1_800.png[Tabela de conformidade,pdfwidth=50%,width=50%,align=center]
+
+A configuração dos níveis de conformidade foi criada para permitir a personalização dos níveis da _Declaração de aplicabilidade_ e definir as cores de destaque dos registos quando o nível é selecionado na tabela.
+O número de níveis é personalizável e a seleção da cor é feita a partir da paleta de cores.
+Por predefinição, existem seis níveis da escala de conformidade, mas pode ser modificado simplesmente clicando no número do nível:
+
+[#fig-compliance-2-800]
+.Editar o número de níveis da escala de conformidade
+image::Compliance_2_800.png[Editar tabela de conformidade - Editar o número de níveis da escala de conformidade,pdfwidth=50%,width=50%,align=center]
+
+Todas as células da tabela podem ser modificadas clicando na célula em questão.
+Pode modificar a primeira coluna alterando o nível da escala de conformidade (descrito acima).
+Também pode editar quaisquer células da segunda coluna (Nível de conformidade):
+
+[#fig-compliance-3-800]
+.Editar o nível de conformidade
+image::Compliance_3_800.png[Editar tabela de conformidade - Nível de conformidade,pdfwidth=50%,width=50%,align=center]
+
+Se pretender alterar a cor de um determinado nível de conformidade, clique na célula relevante na coluna de cor.
+Depois, escolha uma cor diferente na paleta:
+
+[#fig-compliance-4-800]
+.Alterar a cor do nível de conformidade
+image::Compliance_4_800.png[Editar tabela de conformidade - Alterar a representação de cor do Nível de conformidade,pdfwidth=55%,width=55%,align=center]
+
+Uma vez que a cor para os níveis _Initial_ e _Managed_ eram muito semelhantes (tom de laranja), vamos alterar a cor do nível _Managed_ para azul:
+
+[#fig-compliance-5-800]
+.Alterar a cor de conformidade
+image::Compliance_5_800.png[Editar tabela de conformidade - Alterar a cor de conformidade,pdfwidth=50%,width=50%,align=center]
+
+<<<

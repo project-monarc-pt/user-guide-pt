@@ -1,146 +1,177 @@
-By selecting the top of the analysis or an asset in the tree, the risk table appears. There are two separate risk tables:
+Ao selecionar o topo da análise ou um ativo na árvore, aparece a tabela de risco. Existem duas tabelas de risco distintas:
 
-image:InformationRisks_1_800.png[Risk Tables]
+[#fig-informationrisks-1-800]
+.Tabelas de risco
+image::InformationRisks_1_800.png[Tabelas de risco,pdfwidth=80%,width=80%,align=center]
 
-1.	The information risk table is based on CIAfootnote:[CIA,Confidentiality, Integrity and Availability.] criteria.
-2.	The operational risk table is based on ROLFPfootnote:[rolfp,Reputation, Operational, Legal, Financial and Personal] (see <<Operational Risks>>)
+1.	A tabela de risco de informação baseia-se nos critérios CIDfootnote:CIA[Confidentiality, Integrity and Availability.]
+2.	A tabela de risco operacional baseia-se em ROLFPfootnote:rolfp[Reputation, Operational, Legal, Financial and Personal] (ver <<operational-risks,Riscos operacionais>>)
 
-Depending on your selection, the display risk table may change:
+Dependendo da sua seleção, a tabela de risco apresentada pode mudar:
 
 [options="header"]
 |=======================
-|Selection|Information Risks|Operational Risks
-|Root of analysis | All risks of analysis | All risks of analysis
-|Primary Asset | Risks associated with its supporting assets | Risks associated with themselves
-|Supporting Asset| Risks associated with themselves| No risks
+|Seleção|Riscos de informação|Riscos operacionais
+|Raiz da análise | Todos os riscos da análise | Todos os riscos da análise
+|Ativo primário | Riscos associados aos seus ativos de suporte | Riscos associados a si próprios
+|Ativo de suporte| Riscos associados a si próprios| Sem riscos
 |=======================
 
-==== Risks table
+==== Tabela de riscos
 
-image:InformationRisks_2_800.png[Information Risk Table]
+[#fig-informationrisks-2-800]
+.Tabela de riscos de informação
+image::InformationRisks_2_800.png[Tabela de riscos de informação,pdfwidth=80%,width=80%,align=center]
 
-1.	The primary asset `Printing Department` is selected in the analysis.
-2.	Display the CIA impacts on the `Printing Department`.
-3.	Information Risk tab selected.
-4.	`Department` asset includes supporting assets that collectively provide information on total risks.
-5.	Possibility to select only certain risks according to the risk acceptance threshold.
-6.	Ability to sort of most columns of the table.
+1.	O ativo primário _Departamento de Impressão_ está selecionado na análise.
+2.	Apresenta os impactos CID no _Departamento de Impressão_.
+3.	Separador de risco de informação selecionado.
+4.	O ativo _Departamento_ inclui ativos de suporte que, em conjunto, fornecem informação sobre os riscos totais.
+5.	Possibilidade de selecionar apenas determinados riscos consoante o limiar de aceitação de risco.
+6.	Possibilidade de ordenar pela maioria das colunas da tabela.
 
-The risk table consists of the following columns:
+A tabela de risco é composta pelas seguintes colunas:
 
-image:InformationRisks_3_800.png[Information Risk Table]
+[#fig-informationrisks-3-800]
+.Colunas da tabela de riscos de informação
+image::InformationRisks_3_800.png[Tabela de riscos de informação,pdfwidth=80%,width=80%,align=center]
 
-1.	`Asset`: Assets involved in the evaluation.
-2.	`CIA Impact`: The CIA criteria that have been assigned to the `Printing Department` are inherited by default from the supporting assets.
-3.	`Prob`: Likelihood of threat (see <<Likelihood scale>>).
-4.	`Existing controls`: Describes the security control implemented to address the specific vulnerability or, more broadly, the associated risk.
-5.	`Qualif`: Evaluation of control in place in order to determine the level of vulnerability (see <<Vulnerability scale>>).
-6.	`Current risk`: Risk value calculated according to the risk calculation formula. The colours depend on the risk acceptance grid (see <<Acceptance thresholds>>).
-7.	`Treatment`: Indicates if the risk is treated or not. It links directly to the risk profile (see <<Risk information sheet>>).
-8.	`Residual risk`: Value of residual risk. In the case of the figure above, the residual risk is equal to the maximum risk because it is not yet treated.
+1.	_Ativo_: Ativos envolvidos na avaliação.
+2.	_Impacto CID_: Os critérios CID atribuídos ao _Departamento de Impressão_ são herdados por predefinição dos ativos de suporte.
+3.	_Prob_: Probabilidade da ameaça (ver <<likelihood-scale,Escala de probabilidade>>).
+4.	_Controlos existentes_: Descreve o controlo de segurança implementado para responder à vulnerabilidade específica ou, de forma mais ampla, ao risco associado.
+5.	_Classif_: Avaliação do controlo em vigor para determinar o nível de vulnerabilidade (ver <<vulnerability-scale,Escala de vulnerabilidades>>).
+6.	_Risco atual_: Valor de risco calculado de acordo com a fórmula de cálculo de risco. As cores dependem da grelha de aceitação de risco (ver <<acceptance-thresholds,Limiares de aceitação>>).
+7.	_Tratamento_: Indica se o risco é tratado ou não. Liga diretamente ao perfil de risco (ver <<risk-information-sheet,Ficha de informação de risco>>).
+8.	_Risco residual_: Valor do risco residual. No caso da figura acima, o risco residual é igual ao risco máximo porque ainda não foi tratado.
 
-NOTE: By hovering the cursor over the fields, a relevant tooltip appears.
+NOTE: Ao passar o cursor sobre os campos, aparece uma dica de contexto relevante.
 
-====	Risk information sheet
+<<<
 
-The risk sheet is displayed when you click on the `Not treated` link in the information risk table.
+[#risk-information-sheet]
+====	Ficha de informação de risco
 
-image:RiskInformationSheet_1_800.png[Information Risk Sheet]
+A ficha de risco é apresentada quando clica na ligação _Não tratado_ na tabela de risco de informação.
 
-1.	Risk values for CID criteria (not yet covered in the example).
-2.	Reminders of the parameters of the risk table.
-3.	Creation / Assignment button for one or more recommendations.
-4.	Selection of the kind of treatment:
-    * Reduction/Modification
-    * Denied
-    * Accepted
-    * Shared
-5.	Choosing a risk reduction value, the more effective the control is, the greater the reduction value is.
-6.	Proposals of controls, which come from various repositories.
+[#fig-riskinformationsheet-1-800]
+.Ficha de informação de risco
+image::RiskInformationSheet_1_800.png[Ficha de risco de informação,pdfwidth=80%,width=80%,align=center]
 
-WARNING: Do not forget to save the form in order to calculate the residual risk.
+1.	Valores de risco para os critérios CID (ainda não cobertos no exemplo).
+2.	Lembretes dos parâmetros da tabela de risco.
+3.	Botão de criação/atribuição de uma ou mais recomendações.
+4.	Seleção do tipo de tratamento:
+    * Redução
+    * Negado
+    * Aceite
+    * Partilhado
+5.	Escolha de um valor de redução de risco; quanto mais eficaz for o controlo, maior é o valor de redução.
+6.	Propostas de controlos, provenientes de vários repositórios.
 
-====	Adding additional risk
+WARNING: Não se esqueça de guardar o formulário para calcular o risco residual.
 
-The below screenshot shows an asset selected in the analysis:
+====	Adicionar risco adicional
 
-image:InformationRisks_4_800.png[Specific Risk]
+A captura de ecrã abaixo mostra um ativo selecionado na análise:
 
-1. Click to `create a specific risk`: A pop-up appears and allows you to associate a threat and vulnerability pair with the current asset.
+[#fig-informationrisks-4-800]
+.Ativo selecionado para adicionar um risco específico
+image::InformationRisks_4_800.png[Risco específico,pdfwidth=80%,width=80%,align=center]
 
-NOTE: Threat and vulnerability must exist beforehand.
+1. Clique para _Criar um risco específico_: Aparece uma janela emergente que permite associar um par de ameaça e vulnerabilidade ao ativo atual.
+
+NOTE: A ameaça e a vulnerabilidade têm de existir previamente.
 
 
-==== Contextual menu of asset
+==== Menu de contexto do ativo
 
-By clicking on the icon image:Menu.png[pdfwidth=4%,width=4%], the context menu of the asset appears:
+Ao clicar no ícone image:Menu.png[pdfwidth=4%,width=4%], aparece o menu de contexto do ativo:
 
-image:ContextualMenu_1_800.png[Contextual Menu of Asset]
+[#fig-contextualmenu-1-800]
+.Menu de contexto do ativo
+image::ContextualMenu_1_800.png[Menu de contexto do ativo,pdfwidth=80%,width=80%,align=center]
 
-1.	`Edit impacts`: Displays the impact and consequence modification view (see <<Impacts and consequences>>).
-2.	`Import analysis`: By clicking on this option, the Asset import center window opens, where you can decide whether you want to import an asset by duplicating or merging it into the analysis (See <<Importing an asset>>.). You can choose a file and give a password to the import.
-3.	`Export analysis`: This option allows you to export analysis, from the place pointed by the selected asset of the analysis. The export works exactly like exporting an asset. (See <<Exporting an asset>>.)
+1.	_Editar impactos_: Apresenta a vista de modificação de impacto e consequências (ver <<impacts-and-consequences,Impactos e consequências>>).
+2.	_Importar análise_: Ao clicar nesta opção, abre-se a janela do centro de importação de ativos, onde pode decidir se pretende importar um ativo duplicando-o ou fundindo-o na análise (ver <<importing-an-asset,Importar um ativo>>). Pode escolher um ficheiro e atribuir uma palavra-passe à importação.
+3.	_Exportar a análise_: Esta opção permite exportar a análise, a partir do ponto indicado pelo ativo selecionado da análise. A exportação funciona exatamente como a exportação de um ativo (ver <<exporting-an-asset,Exportar um ativo>>).
 +
-NOTE: The additional option, is `export with assessment`. It means, export gets the evaluation and treatment of risks. By default is disabled.
+NOTE: A opção adicional é _exportar com avaliações_. Significa que a exportação inclui a avaliação e o tratamento dos riscos. Por predefinição, está desativada.
 
 +
 
-image::ExportOptions.png[pdfwidth=40%,align="center"]
+image::ExportOptions.png[pdfwidth=50%,align="center"]
 
-4.	Asset context: The Asset context window opens, where you can add asset context fields (labels) to the asset.
-Each asset can have custom context set by clicking on the 3 dots of the asset context menu.
-The labels of the context field values are created on the analysis wise and the values of the context are particular to the selected asset.
-If an asset is global the context value is shared to its siblings.
+4.	_Contexto do ativo_: A janela de contexto do ativo abre-se, onde pode adicionar campos de contexto do ativo (etiquetas) ao ativo.
+Cada ativo pode ter um contexto personalizado, definido clicando nos 3 pontos do menu de contexto do ativo.
+As etiquetas dos valores dos campos de contexto são criadas ao nível da análise e os valores do contexto são particulares ao ativo selecionado.
+Se um ativo for global, o valor do contexto é partilhado com os seus pares.
 
-You can add asset context fields by clicking on the + icon at the bottom of the popup.
-You can edit the field label by clicking in the pencil icon or delete it by clicking on the trash bin icon:
+Pode adicionar campos de contexto do ativo clicando no ícone + na parte inferior da janela emergente.
+Pode editar a etiqueta do campo clicando no ícone do lápis ou eliminá-la clicando no ícone do caixote do lixo:
 
-image:AssetContext_1_800.png[Asset Context -edit labels]
+[#fig-assetcontext-1-800]
+.Janela _Contexto do ativo_ para editar as etiquetas
+image::AssetContext_1_800.png[Contexto do ativo -editar etiquetas,pdfwidth=80%,width=80%,align=center]
 
 [start=5]
-5. `See asset in the library`: Displays the asset from the library, allowing you to have another context menu that allows changes to the asset. (See the <<Context menu of library>>.)
+. _Ver ativo na biblioteca_: Apresenta o ativo a partir da biblioteca, permitindo ter outro menu de contexto que possibilita alterações ao ativo. (ver <<context-menu-of-library,Menu de contexto da biblioteca>>.)
 
-6. `Detach` : This option removes an asset from the risk analysis.
+. _Remover associação_ : Esta opção remove um ativo da análise de risco.
 +
 
-WARNING: This action may lead to the loss of risk assessments for this asset and its childrens.
+WARNING: Esta ação pode levar à perda das avaliações de risco deste ativo e dos seus descendentes.
 
-====	Impacts and consequences
 
-===== Edit impacts
+[#impacts-and-consequences]
+====	Impactos e consequências
 
-The first contextual menu of an asset is called the ‘Edit impacts’. The goal is to determine the level of primary assets and assess the potential impacts and consequences that may arise from the realization of the model's risks.
-Once you click on the ‘Edit impacts’ link, the following pop-up appears:
+===== Editar impactos
 
-image:EditImpacts_1_800.png[Edit Impacts]
+O primeiro menu de contexto de um ativo chama-se _Editar impactos_. O objetivo é determinar o nível dos ativos primários e avaliar os potenciais impactos e consequências que possam resultar da concretização dos riscos do modelo.
+Assim que clicar na ligação _Editar impactos_, aparece a seguinte janela emergente:
 
-When you hover your mouse over the eye-shaped icon next to the column names, a relevant tooltip appears. For example, hovering over the 'Operational' column will display the following tooltip:
+[#fig-editimpacts-1-800]
+.Janela _Editar impactos_
+image::EditImpacts_1_800.png[Editar impactos,pdfwidth=75%,width=75%,align=center]
 
-image:EditImpacts_2_800.png[Edit Impacts]
+Quando passa o rato sobre o ícone em forma de olho junto aos nomes das colunas, aparece uma dica de contexto relevante. Por exemplo, ao passar sobre a coluna _Operacional_, é apresentada a seguinte dica de contexto:
 
-Next, set the consequences (e.g., Reputation, Operational, etc.) based on the aspects of Confidentiality, Integrity, and Availability by selecting the appropriate value (0, 1, 2, 3, or 4) from the drop-down menu:
+[#fig-editimpacts-2-800]
+.Dica de contexto da coluna _Operacional_
+image::EditImpacts_2_800.png[Editar impactos,pdfwidth=75%,width=75%,align=center]
 
-image:EditImpacts_3_800.png[Edit Impacts]
+A seguir, defina as consequências (por exemplo, Reputação, Operacional, etc.) com base nos aspetos de Confidencialidade, Integridade e Disponibilidade, selecionando o valor apropriado (0, 1, 2, 3 ou 4) no menu pendente:
 
-The tooltips always help you. For example, hover your mouse over the value 2 to see the consequence it describes for the 'Operational' consequence under the 'Integrity' aspect:
+[#fig-editimpacts-3-800]
+.Definição das consequências
+image::EditImpacts_3_800.png[Editar impactos,pdfwidth=75%,width=75%,align=center]
 
-image:EditImpacts_4_800.png[Edit Impacts]
+As dicas de contexto ajudam sempre. Por exemplo, passe o rato sobre o valor 2 para ver a consequência que descreve para a consequência _Operacional_ sob o aspeto _Integridade_:
 
-These tooltips help a lot in choosing the right values. If you have selected the values everywhere, it is worth reviewing the values on the right side of the table (there are also tooltips here).
+[#fig-editimpacts-4-800]
+.Dica de contexto do valor 2
+image::EditImpacts_4_800.png[Editar impactos,pdfwidth=75%,width=75%,align=center]
 
-image:EditImpacts_5_800.png[Edit Impacts]
+Estas dicas de contexto ajudam muito na escolha dos valores corretos. Se tiver selecionado os valores em todo o lado, vale a pena rever os valores no lado direito da tabela (também há dicas de contexto aqui).
 
-If you find the settings appropriate, save them by clicking on the ‘Save’ button.
+[#fig-editimpacts-5-800]
+.Revisão dos valores das consequências
+image::EditImpacts_5_800.png[Editar impactos,pdfwidth=75%,width=75%,align=center]
 
-NOTE: By leaving the pointer unmoved over the numbers, the meaning of this number appears after one second.
+Se considerar as definições apropriadas, guarde-as clicando no botão _Guardar_.
 
-When one of the criteria *C* (confidentiality), *I* (integrity) or *A* (availability) is allocated, there is a need to ask : what are the
-consequences on the company, and more particularly on its ROLFP, i.e. its **R**eputation, its **O**peration, its **L**egal, its **F**inances
-or the impact on the **P**erson (in the sense of personal data)?
+NOTE: Ao deixar o ponteiro imóvel sobre os números, o significado deste número aparece após um segundo.
 
-image:EditImpacts_6_800.png[Edit Impacts]
+Quando um dos critérios C (confidencialidade), I (integridade) ou D (disponibilidade) é atribuído, é necessário perguntar: quais são as
+consequências para a empresa e, mais particularmente, para o seu ROLFP, ou seja, a sua Reputação, a sua Operação, o seu domínio Legal, as suas Finanças
+ou o impacto na Pessoa (no sentido de dados pessoais)?
 
-In the case of the above figure, the `3` (out of 5) impact on confidentiality, is explained by the maximum value ROLFP regarding
-confidentiality. For example, `3` is the consequence of the person in case of disclosure of his personal file.
+[#fig-editimpacts-6-800]
+.Consequências ROLFP dos critérios CID
+image::EditImpacts_6_800.png[Editar impactos,pdfwidth=75%,width=75%,align=center]
 
-NOTE: To hide the consequences that will not be considered. Click on the icon image:Hide.png[pdfwidth=4%,width=3%]. To show it again. Click on `Show hidden consequences`.
+No caso da figura acima, o impacto _3_ (em 5) na confidencialidade explica-se pelo valor máximo de ROLFP relativamente à
+confidencialidade. Por exemplo, _3_ é a consequência para a pessoa em caso de divulgação do seu ficheiro pessoal.
+
+NOTE: Para ocultar as consequências que não serão consideradas, clique no ícone image:Hide.png[pdfwidth=4%,width=3%]. Para as mostrar novamente, clique em _Mostrar consequências ocultas_.

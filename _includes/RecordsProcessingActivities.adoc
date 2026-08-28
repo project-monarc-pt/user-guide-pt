@@ -1,123 +1,159 @@
-The menu is always accessible from the main view of MONARC:
+O menu está sempre acessível a partir da vista principal do MONARC:
 
-1.	To reach the ‘Record of processing activities’ menu, first, click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] in the upper right-hand corner.
+1.	Para aceder ao menu _Registo de atividades de tratamento_, clique primeiro no menu contextual image:Menu.png[pdfwidth=4%,width=4%] no canto superior direito.
 
-image:ProcessingActivities_1_800.png[Context Menu]
+[#fig-processingactivities-1-800]
+.Menu contextual
+image::ProcessingActivities_1_800.png[Menu Contextual]
 
 [start=2]
-.	Then, from the dropdown-menu choose `Record of processing activites`
+.	Depois, no menu pendente, escolha _Registo de atividades de tratamento_
 
-image:ProcessingActivities_2_800.png[Record of processing activities]
+[#fig-processingactivities-2-800]
+.Opção _Registo de atividades de tratamento_ no menu pendente
+image::ProcessingActivities_2_800.png[Registo de atividades de tratamento]
 
 [NOTE]
 ===============================================
-The main goal of this functionality is to help companies to have a list of their processing activities to help to be compliant with GDPR
+O principal objetivo desta funcionalidade é ajudar as empresas a manterem uma lista das suas atividades de tratamento, para ajudar a estarem em conformidade com o RGPD
 
 ===============================================
 
-== How to record a processing activity?
+== Como registar uma atividade de tratamento?
 
-To create a processing activity, click on the + sign in the top right-hand corner of the screen:
+Para criar uma atividade de tratamento, clique no sinal + no canto superior direito do ecrã:
 
-image:ProcessingActivities_3_800.png[Record of processing activity]
+[#fig-processingactivities-3-800]
+.Ecrã do registo de atividades de tratamento
+image::ProcessingActivities_3_800.png[Registo de atividade de tratamento]
 
-You can create a new processing activity by:
+Pode criar uma nova atividade de tratamento ao:
 
-.	`Importing` a JSON file previously exported from MONARC
-.   or `Creating` it from an existing one
+.	_Importar_ um ficheiro JSON previamente exportado do MONARC
+.   ou _Criar_ a partir de uma já existente
 
-If you create a processing activity without importing it, you have to set a label.
+Se criar uma atividade de tratamento sem a importar, tem de definir uma etiqueta.
 
-image:ProcessingActivities_4_800.png[ProcessingActivityCreation]
+[#fig-processingactivitycreation]
+.Criação de uma atividade de tratamento
+image::ProcessingActivityCreation.png[ProcessingActivityCreation]
 
-The first processing activity is now created. According to the GDPR you can now:
+<<<
 
-image:ProcessingActivityFirst.png[ProcessingActivityFirst]
+A primeira atividade de tratamento está agora criada. De acordo com o RGPD, pode agora:
 
-. Fill six categories (Description, Actors, Categories of data subjects and personal data, Recipients, International transfers, Processors)
+[#fig-processingactivityfirst]
+.Primeira atividade de tratamento criada
+image::ProcessingActivityFirst.png[ProcessingActivityFirst,pdfwidth=80%,width=80%,align=center]
 
-You can also :
+. Preencher seis categorias (Descrição, Atores, Categorias de titulares de dados e dados pessoais, Destinatários, Transferências internacionais, Processadores)
+
+Também pode :
 [start=2]
-.	`Download` informations of all the processecing activities.
-. `Create` a new processing activity.
-. `Download` informations of the selected processecing activity.
-.	`Delete` the selected processing activity.
-. Show or hide a category.
+.	_Descarregar_ as informações de todas as atividades de tratamento.
+. _Criar_ uma nova atividade de tratamento.
+. _Descarregar_ as informações da atividade de tratamento selecionada.
+.	_Eliminar_ a atividade de tratamento selecionada.
+. Mostrar ou ocultar uma categoria.
 
-=== Description
+<<<
 
-In this section you have the general information about the selected processing activity:
+=== Descrição
 
-image:ProcessingActivityDescription.png[ProcessingActivityDescription]
+Nesta secção encontra as informações gerais sobre a atividade de tratamento selecionada:
 
-.	`Edit` the name of the selected processecing activity.
-. See the date of creation (automaticly filled by MONARC).
-.  See the date of last update (automaticly filled by MONARC).
-.	`Fill` the purpose of the processecing activity.
-. `Describe` the main security measures.
+[#fig-processingactivitydescription]
+.Secção _Descrição_
+image::ProcessingActivityDescription.png[ProcessingActivityDescription]
+
+.	_Editar_ o nome da atividade de tratamento selecionada.
+. Ver a data de criação (preenchida automaticamente pelo MONARC).
+.  Ver a data da última atualização (preenchida automaticamente pelo MONARC).
+.	_Preencher_ a finalidade da atividade de tratamento.
+. _Descrever_ as principais medidas de segurança.
 
 [NOTE]
 ===============================================
-To edit a field, you just have to click in the corresponding area to enable the edition and click outside to save your work.
+Para editar um campo, basta clicar na área correspondente para ativar a edição e clicar fora para guardar o seu trabalho.
 
 ===============================================
 
-=== Actors
+<<<
 
-In this section you have the actors about the selected processing activity:
+=== Atores
 
-image:ProcessingActivityActors.png[ProcessingActivityActors]
+Nesta secção encontra os atores da atividade de tratamento selecionada:
 
-. Just click inside to edit and outside to save.
-. Before creating an actor, you can choose one from the existing ones.
-. Delete the corresponding fields of the array.
-. You can `create` several joint controller for one processing activities.
+[#fig-processingactivityactors]
+.Secção _Atores_
+image::ProcessingActivityActors.png[ProcessingActivityActors]
 
-=== Categories of data subjects and personal data
+. Basta clicar dentro para editar e fora para guardar.
+. Antes de criar um ator, pode escolher um dos já existentes.
+. Eliminar os campos correspondentes da tabela.
+. Pode _criar_ vários responsáveis conjuntos para uma atividade de tratamento.
 
-In this section you have the actors about the selected processing activity:
+<<<
 
-image:ProcessingActivityData.png[ProcessingActivityData]
+=== Categorias de titulares de dados e dados pessoais
 
-. `Add` several type of data subjects.
-. `Categories of data subjects`, `Description` and `Description of retention period` are standard editable field.
-. Just type the `category of personal data` and press enter to save it.
-. Set the number for the retention and choose the duration in the drop-down list.
-. `Delete` the corresponding type of data subjects.
+Nesta secção encontra os intervenientes da atividade de tratamento selecionada:
 
-=== Recipients
+[#fig-processingactivitydata]
+.Secção _Categorias de titulares de dados e dados pessoais_
+image::ProcessingActivityData.png[ProcessingActivityData]
 
-In this section you have the recipients about the selected processing activity:
+. _Adicionar_ vários tipos de titulares de dados.
+. _Categorias de titulares de dados_, _Descrição_ e _Descrição do período de retenção_ são campos editáveis normais.
+. Basta escrever a _categoria de dados pessoais_ e premir a tecla *Enter* para guardar.
+. Definir o número para a retenção e escolher a duração na lista pendente.
+. _Eliminar_ o tipo de titulares de dados correspondente.
 
-image:ProcessingActivityRecipient.png[ProcessingActivityRecipient]
+<<<
 
-. `Add` several type of data subjects.
-. Use a `recipient` from the drop-down list or create a new one.
-. Set the `recipient type` from the drop-down list.
-. `Description` is a standard editable field.
-. `Delete` the corresponding recipient.
+=== Destinatários
 
-=== International transfers
+Nesta secção encontra os destinatários da atividade de tratamento selecionada:
 
-In this section you can add an international transfer for the selected processing activity:
+[#fig-processingactivityrecipient]
+.Secção _Destinatários_
+image::ProcessingActivityRecipient.png[ProcessingActivityRecipient]
 
-image:ProcessingActivityInternationalTransfer.png[ProcessingActivityInternationalTransfer]
+. _Adicionar_ vários tipos de titulares de dados.
+. Utilizar um _destinatário_ da lista pendente ou criar um novo.
+. Definir o _tipo de destinatário_ a partir da lista pendente.
+. _Descrição_ é um campo editável normal.
+. _Eliminar_ o destinatário correspondente.
 
-. `Add` one more international transfer.
-. `Organisation` , `description`, `country` and `documents` are standard editable field.
-. `Delete` the corresponding international transfer.
+<<<
 
-=== Processors
+=== Transferências internacionais
 
-In this section you can manage the processors for the selected processing activity:
+Nesta secção pode adicionar uma transferência internacional para a atividade de tratamento selecionada:
 
-image:ProcessingActivityProcessor.png[ProcessingActivityProcessor]
+[#fig-processingactivityinternationaltransfer]
+.Secção _Transferências internacionais_
+image::ProcessingActivityInternationalTransfer.png[ProcessingActivityInternationalTransfer]
 
-. `Add` one more processor and feel free to select an existing one or create a new one.
-. `Name` , `Contact`, `Activity` and `security measures` are standard editable field.
-. Use an `actor` from the drop-down list or create a new one.
-. `Delete` the corresponding actor.
-. `Detach` the processor from the selected processing activity.
+. _Adicionar_ mais uma transferência internacional.
+. _Organização_ , _descrição_, _país_ e _documentos_ são campos editáveis normais.
+. _Eliminar_ a transferência internacional correspondente.
+
+<<<
+    
+=== Processadores
+
+Nesta secção pode gerir os processadores da atividade de tratamento selecionada:
+
+[#fig-processingactivityprocessor]
+.Secção _Processadores_
+image::ProcessingActivityProcessor.png[ProcessingActivityProcessor]
+
+. _Adicionar_ mais um processador e esteja à vontade para selecionar um já existente ou criar um novo.
+. _Nome_ , _Contacto_, _Atividade_ e _medidas de segurança_ são campos editáveis normais.
+. Utilize um _ator_ da lista pendente ou criar um novo.
+. _Eliminar_ o ator correspondente.
+. _Desassociar_ o processador da atividade de tratamento selecionada.
 
 
 <<<

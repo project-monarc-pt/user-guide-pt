@@ -1,63 +1,76 @@
-==== Risks table
+==== Tabela de riscos
 
-Below is an example of an Operational Risk table.
+Abaixo encontra-se um exemplo de uma tabela de Risco Operacional.
 
-image:OperationalRisk_1_800.png[Operational Risk Table]
+[#fig-operationalrisk-1-800]
+.Tabela de risco operacional
+image::OperationalRisk_1_800.png[Tabela de Risco Operacional,pdfwidth=80%,width=80%,align=center]
 
-To reach this table, please follow the steps as follows:
+Para chegar a esta tabela, siga os passos seguintes:
 
-1.	Select the primary asset. In this case, `GDPR legal obligations`.
-2.	Click on the tab `Operational risks`.
-3.	The figure shows the total operational risks associated with the primary asset.
-4.	By selecting the relevant radio button, you can choose specific risks based on the risk acceptance threshold.
-5.	Ability to sort most columns of the table. The sort can be done by Asset, Position, Net probability, Net risk, and Residual risk. The sort direction can be Ascending or Descending.
+1.	Selecione o ativo primário. Neste caso, _Obrigações legais RGPD_.
+2.	Clique no separador _Riscos operacionais_.
+3.	A figura mostra o total de riscos operacionais associados ao ativo primário.
+4.	Ao selecionar o botão de opção radial relevante, pode escolher riscos específicos com base no limiar de aceitação de risco.
+5.	Possibilidade de ordenar a maioria das colunas da tabela. A ordenação pode ser feita por Ativo, Posição, Probabilidade líquida, Risco líquido e Risco residual. A direção de ordenação pode ser Ascendente ou Descendente.
 
-NOTE: The operational risk table may or may not display the inherent risks. They are the operational risks that would impact the organization without any controls in place.
-To show this option see <<Creating a Risk Analysis>>.
+NOTE: A tabela de riscos operacionais pode ou não apresentar os riscos inerentes. São os riscos operacionais que afetariam a organização sem quaisquer controlos implementados.
+Para mostrar esta opção, consulte <<creating-a-risk-analysis,Criar uma Análise de Risco>>.
 
-image:OperationalRisk_2_800.png[Fields Operational Risk Table]
+[#fig-operationalrisk-2-800]
+.Campos da tabela de risco operacional
+image::OperationalRisk_2_800.png[Campos da Tabela de Risco Operacional,pdfwidth=80%,width=80%,align=center]
 
-1.	`Asset`: Assets involved in the evaluation
-2.	`Risk description`: Description of risk
-3.	`Inherent risk`: Operational risk is calculated from the two factors, the probability (`Prob.`) of the risk scenario and the `Impact` based on the ROLFPfootnote:[rolfp] without controls in place. The current risk represents the maximum value of the probability of the ROLFP impact values.
-4.	`Net risk`: Net risk represents the risk of the measures currently in place. The calculation is the same as for the inherent risks.
-5.	`Existing controls`: Describe here, in a factual manner, the control in place.
-6.	`Treatment`: Indication if the risk is treated and risk profile (see <<Operational risk sheet>>).
-7.	`Residual risk` : Value of the residual risk. In the case of the figure above, the residual risk is equal to the maximum risk because it has not yet been treated.
+1.	_Mostrar os riscos operacionais inerentes_: Botão de alternância que permite mostrar/ esconder a coluna dos riscos inerentes 
+2.	_Ativo_: Ativos envolvidos na avaliação
+3.	_Descrição do risco_: Descrição do risco
+4.	_Risco inerente_: O risco operacional é calculado a partir de dois fatores, a probabilidade (_Prob._) do cenário de risco e o _Impacto_ com base no ROLFPfootnote:rolfp[] sem controlos implementados. O risco atual representa o valor máximo da probabilidade dos valores de impacto ROLFP.
+5.	_Risco líquido_: O risco líquido representa o risco das medidas atualmente implementadas. O cálculo é o mesmo que para os riscos inerentes.
+6.	_Controlos existentes_: Descreva aqui, de forma factual, o controlo implementado.
+7.	_Tratamento_: Indicação de se o risco está tratado e o perfil de risco (consulte <<operational-risk-sheet,Ficha de risco operacional>>).
+8.	_Risco residual_ : Valor do risco residual. No caso da figura acima, o risco residual é igual ao risco máximo porque ainda não foi tratado.
 
-====	Operational risk sheet
 
-In the risk analysis, click on an asset and choose the Operational risk tab.
-Then, in the ‘Kind of treatment’ dropdown menu choose ‘Not treated’. The not treated assets should appear in the table.
+[#operational-risk-sheet]
+====	Ficha de risco operacional
 
-image:OperationalRiskSheet_1_800.png[Operational Risk Sheet]
+Na análise de risco, clique num ativo e escolha o separador _Risco operacional_.
+Depois, no menu pendente _Tipo de tratamento_, escolha _Não tratado_. Os ativos não tratados deverão aparecer na tabela.
 
-Click on the `Not treated` link in the operational risk table, so the risk card is displayed.
+[#fig-operationalrisksheet-1-800]
+.Ficha de risco operacional
+image::OperationalRiskSheet_1_800.png[Ficha de Risco Operacional,pdfwidth=90%,width=90%,align=center]
 
-image:OperationalRiskSheet_2_800MM.png[Operational Risk Sheet]
+Clique na ligação _Não tratado_ na tabela de riscos operacionais, para que o cartão de risco seja apresentado.
 
-1. `Current risk`: Values for risk probability (`Prob.`) and ROLFPfootnote:[rolfp] Criteria.
-2. `Residual risk` : Values for risk probability and ROLFPfootnote:[rolfp] criteria (not yet treated). Those values should be adjusted according to the recommendation and the measures that will be put in place.
-Reminders of the parameters of the risk table.
-3. `Asset`: the name of the asset
-4. `Risk description`: the description of the risk
-5. `Risk owner` : This field is aligned to the ISO27005 latest specification and allow you to specify the risk owner. The risk owner is saved in the database and can be selected by typing its first letter for using in another risks. 
-6. `Risk context` : This field is aligned to the ISO27005 latest specification and allow you to specify the risk context.The context field is a free text field.
-7. `Recommmendations` : Creation / Assignment button for adding one or more recommendations.
-8. `Kind of treatment` : Selection of the type of risk treatment (Not treated, Reduction, Denied, Accepted, or Shared).
-9. `Security referentials` : (ISO 27002, NIST Core, etc.)
+[#fig-operationalrisksheet-2-800mm]
+.Cartão de risco operacional
+image::OperationalRiskSheet_2_800MM.png[Ficha de Risco Operacional,pdfwidth=90%,width=90%,align=center]
 
-NOTE: Once the validation has been done, the risk is treated.
+1. _Risco atual_: Valores para a probabilidade de risco (_Prob._) e os critérios ROLFPfootnote:rolfp[].
+2. _Risco residual_ : Valores para a probabilidade de risco e os critérios ROLFPfootnote:rolfp[] (ainda não tratado). Esses valores devem ser ajustados de acordo com a recomendação e as medidas que serão implementadas.
+Lembretes dos parâmetros da tabela de risco.
+3. _Ativo_: o nome do ativo
+4. _Descrição do risco_: a descrição do risco
+5. _Dono de risco_ : Este campo está alinhado com a última especificação ISO27005 e permite-lhe especificar o proprietário de risco. O proprietário de risco é guardado na base de dados e pode ser selecionado escrevendo a sua primeira letra para utilização noutros riscos.
+6. _Contexto de risco_ : Este campo está alinhado com a última especificação ISO27005 e permite-lhe especificar o contexto do risco. O campo de contexto é um campo de texto livre.
+7. _Recomendações_ : Botão de criação / atribuição para adicionar uma ou mais recomendações.
+8. _Tipo de tratamento_ : Seleção do tipo de tratamento de risco (Não tratado, Redução, Negado, Aceite ou Partilhado).
+9. _Referenciais de segurança_ : (ISO 27002:2022, NIST Core, etc.)
 
-==== Adding additional risk
+NOTE: Uma vez efetuada a validação, o risco fica tratado.
 
-You can add further risks to your risk table. Select an asset in the risk analysis and click on the ‘Create a specific risk’ link below the risk table:
+==== Adicionar risco adicional
 
-image:AddingRisk_1_800.png[Operational Specific Risk]
+Pode adicionar mais riscos à sua tabela de riscos. Selecione um ativo na análise de risco e clique na ligação _Criar um risco específico_ por baixo da tabela de riscos:
 
-1.	Click to `create a specific risk`: A pop-up appears and allows a new risk to be associated with the current asset.
-If the risk does not exist, it can be created directly. In the popup window, you can decide whether you want to add an existing risk or create a new one:
+[#fig-addingrisk-1-800]
+.Risco específico operacional
+image::AddingRisk_1_800.png[Risco Específico Operacional,pdfwidth=90%,width=90%,align=center]
 
-image:AddOperationalRisk_1_800.png[Adding Operational Specific Risk]
+1.	Clique em _Criar um risco específico_: Aparece uma janela emergente que permite associar um novo risco ao ativo atual.
+Se o risco não existir, pode ser criado diretamente. Na janela emergente, pode decidir se pretende adicionar um risco existente ou criar um novo:
 
-<<<
+[#fig-addoperationalrisk-1-800]
+.Adicionar risco específico operacional
+image::AddOperationalRisk_1_800.png[Adicionar Risco Específico Operacional,pdfwidth=80%,width=80%,align=center]

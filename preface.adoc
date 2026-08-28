@@ -1,0 +1,14 @@
+<<<
+
+[preface]
+== Controlo documental
+
+.Histórico de alterações
+[cols="1,1,3",options="header",frame="all",grid="all"]
+|===
+|Versão |Data |Descrição da alteração
+|1.0 |2026-07-23 |Versão inicial.
+| | |
+|===
+
+<<<

@@ -1,43 +1,43 @@
-=== Purpose
+=== Objetivo
 
-The purpose of this document is to provide a comprehensive explanation of all the options in the MONARC tool.
+O objetivo deste documento é fornecer uma explicação abrangente de todas as opções da ferramenta MONARC.
 
-=== Other documents
+=== Outros documentos
 
 [NOTE]
 ===============================================
-* link:https://www.monarc.lu/documentation/quick-start[*Quick Start*]: Provides a quick start about MONARC.
-* link:https://www.monarc.lu/documentation/method-guide[*Method Guide*]: Provides the complete documentation of the method.
-* link:https://www.monarc.lu/documentation/technical-guide[*Technical Guide*]: Provides the complete technical documentation of the tool.
+* link:https://www.monarc.lu/documentation/quick-start[*Início Rápido*]: Fornece um arranque rápido com o MONARC.
+* link:https://www.monarc.lu/documentation/method-guide[*Guia do Método*]: Fornece a documentação completa do método.
+* link:https://www.monarc.lu/documentation/technical-guide[*Guia Técnico*]: Fornece a documentação técnica completa da ferramenta.
 ===============================================
 
-=== Syntax used in the document
+=== Sintaxe utilizada no documento
 
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:Step.png[Cursor] |All numbers in white on an orange background are used on print-screen views to provide additional explanations. Explanations are always after the view with the corresponding numbering. *e.g.* 1.
+|image:Step.png[Cursor] |Todos os números em branco sobre um fundo laranja são utilizados nas vistas de captura de ecrã para fornecer explicações adicionais. As explicações surgem sempre após a vista com a numeração correspondente. *p. ex.* 1.
 |====
 [cols="^a,7a",grid="none",frame="none",valign="middle"]
 |====
-|`Reference` |MONARC Reference
+|`Reference` |Referência MONARC
 |====
 
-=== Syntax used in MONARC
+=== Sintaxe utilizada no MONARC
 
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:Menu.png[Menu]| The three-dot menu icon brings up the menu items.
+|image:Menu.png[Menu]| O ícone de menu de três pontos abre os itens de menu.
 |====
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:CreateButton.png[Create] |Create/add something in context (assets, recommendations, etc.).
+|image:CreateButton.png[Create] |Criar/adicionar algo no contexto (ativos, recomendações, etc.).
 |====
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:Cursor.png[Cursor] |Most fields of MONARC display additional information when the pointer stays unmoved for some time.
+|image:Cursor.png[Cursor] |A maioria dos campos do MONARC apresenta informação adicional quando o ponteiro permanece imóvel durante algum tempo.
 |====
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:IconExport.png[Export] |Export any table (.csv) or graphic (.png).
+|image:IconExport.png[Export] |Exportar qualquer tabela (.csv) ou gráfico (.png).
 |====
 <<<

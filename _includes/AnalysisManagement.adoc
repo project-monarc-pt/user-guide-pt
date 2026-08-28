@@ -1,77 +1,100 @@
-The main view of risk analysis consists of 4 distinct parts.
+A vista principal da análise de risco é composta por 4 partes distintas.
 
-image:RiskAnalysisMain_1_800.png[Risk Analysis Main View]
+[#fig-riskanalysismain-1-800]
+.Vista principal da análise de risco
+image::RiskAnalysisMain_1_800.png[Vista Principal da Análise de Risco,pdfwidth=90%,width=90%,align=center]
 
-1.	Access to the steps of the method: Click on the numbers from `1` to `4` to access the menus which follow the step-by-step method (see <<Method steps call>>).
-2.	Risk Analysis area: allows you to structure the assets of the analysis hierarchically by using the _Drag and Drop_ function
-(hold down the left mouse button to move an asset). (See <<Information Risks>> and <<Operational Risks>>)
-3.	Asset library area: Asset storage. The _drag-and-drop_ function must be used to place these assets in the analysis (to move them to the Risk Analysis Area) (see <<Library>>).
-4. Contextual area of work in the analysis: Depending on the assets and active parts of the analysis, this area contains contextual elements of the work.
+1.	Acesso aos passos do método: clique nos números de _1_ a _4_ para aceder aos menus que seguem o método passo a passo (ver <<method-steps-call,Acesso aos passos do método>>).
+2.	Área de Análise de Risco: permite-lhe estruturar hierarquicamente os ativos da análise utilizando a função _arrastar e largar_
+(mantenha premido o botão esquerdo do rato para mover um ativo). (Ver <<information-risks,Riscos de informação>> e <<operational-risks,Riscos operacionais>>)
+3.	Área da biblioteca de ativos: armazenamento de ativos. A função _arrastar e largar_ tem de ser utilizada para colocar estes ativos na análise (para os mover para a Área de Análise de Risco) (ver <<library,Biblioteca>>).
+4. Área contextual de trabalho na análise: consoante os ativos e as partes ativas da análise, esta área contém elementos contextuais do trabalho.
 
-=== Risk analysis management
+<<<
 
-You can manage your analysis in two steps as follows:
+=== Gestão da análise de risco
 
-1. First, click on the name of the analysis
-2. Second, click on the three-dot context menu (if you hover your mouse over the menu, a tooltip 'Actions' appears)
+Pode gerir a sua análise em dois passos, da seguinte forma:
 
-image:AnalysisManagement_1_800.png[Analysis Management two steps]
+1. Primeiro, clique no nome da análise
+2. Depois, clique no menu contextual de três pontos (se passar o rato sobre o menu, aparece uma dica _Ações_)
 
-When you click the three-dot context menu, the following options appear:
+[#fig-analysismanagement-1-800]
+.Gestão da análise em dois passos
+image::AnalysisManagement_1_800.png[Gestão da Análise em dois passos,pdfwidth=90%,width=90%,align=center]
 
-image:AnalysisManagement_2_800.png[Analysis Management esit options]
+Quando clica no menu contextual de três pontos, são apresentadas as seguintes opções:
+
+[#fig-analysismanagement-2-800]
+.Opções de edição da gestão da análise
+image::AnalysisManagement_2_800.png[Opções de edição da Gestão da Análise,pdfwidth=90%,width=90%,align=center]
 
 [start=1]
-1. Edit risk analysis - use this option in case you want to modify your existing risk analysis. 
-    This option allows you to modify the name, the description of the analysis, and add or remove linked referential. The Edit risk analysis pop-up appears:
+. _Editar análise de risco_ - utilize esta opção caso pretenda modificar a sua análise de risco existente.
+    Esta opção permite-lhe modificar o nome e a descrição da análise, bem como adicionar ou remover o referencial associado. Aparece a janela emergente _Editar análise de risco_:
 
-image:EditRiskAnalysis_1_800.png[Import a Risk analysis]
+[#fig-editriskanalysis-1-800]
+.Janela emergente _Editar análise de risco_
+image::EditRiskAnalysis_1_800.png[Importar uma análise de Risco,pdfwidth=90%,width=90%,align=center]
 
 [start=2]
-2. Import a risk analysis - you can import a complete risk analysis.
-    The file format is JSON and the structure can be viewed by exporting an analysis. There are 2 possible options of the export:
-    - By merging (default). When matched assets names are not duplicated in the library.
-    - By duplication. When the library assets are duplicated in case if presented before. The analysis assets will also be duplicated.
+. _Importar uma análise de risco_ - pode importar uma análise de risco completa.
+    O formato do ficheiro é JSON e a estrutura pode ser visualizada ao exportar uma análise. Existem 2 opções possíveis de exportação:
+    - Por fusão (predefinição). Quando os nomes dos ativos correspondentes não são duplicados na biblioteca.
+    - Por duplicação. Quando os ativos da biblioteca são duplicados, caso já existam anteriormente. Os ativos da análise também serão duplicados.
 
-WARNING: An analysis can be only imported when the language of its creation is the same as the current analysis (into which import is performed)!
+WARNING: Uma análise só pode ser importada quando o idioma da sua criação for o mesmo da análise atual (para a qual a importação é efetuada)!
 
-image:ImportAnalysis_1_800.png[Import a Risk analysis]
+[#fig-importanalysis-1-800]
+.Janela emergente _Importar uma análise de risco_
+image::ImportAnalysis_1_800.png[Importar uma análise de Risco,pdfwidth=90%,width=90%,align=center]
+
+<<<
 
 [start=3]
-3. Export the whole risk analysis - you can export the whole analysis with or without the assets library and the knowledge base.
-The export of the analysis can be done with the following options:
-- The export file can be protected by a password if it is set (Custom password option).
-- "Include assets library?" The whole assets library is included in the export if the option is selected.
-- "Include knowledge base?" The whole knowledge base is included in the export if the option is selected.
-- “Export with assessments?” All the evaluations are included. Optionally can be added or not different analysis evaluation criteria (Options section).
+. _Exportar toda a análise de risco_ - pode exportar toda a análise com ou sem a biblioteca de ativos e a base de conhecimento.
+A exportação da análise pode ser efetuada com as seguintes opções:
+- O ficheiro de exportação pode ser protegido por uma palavra-passe, se esta for definida (opção _Palavra-passe personalizada_).
+- _Incluir a biblioteca de ativos?_ Toda a biblioteca de ativos é incluída na exportação se a opção estiver selecionada.
+- _Incluir a base de conhecimento?_ Toda a base de conhecimento é incluída na exportação se a opção estiver selecionada.
+- _Exportar com avaliações?_ Todas as avaliações são incluídas. Opcionalmente, podem ser adicionados ou não diferentes critérios de avaliação da análise (secção _Opções_).
 
-image:ExportRiskAnalysis_1_800.png[Export a Risk analysis]
+[#fig-exportriskanalysis-1-800]
+.Janela emergente _Exportar uma análise de risco_
+image::ExportRiskAnalysis_1_800.png[Exportar uma análise de Risco,pdfwidth=48%,width=48%]
 
 [start=4]
-4. Delete risk analysis
+. _Eliminar análise de risco_
 
-If you click on the link 'Delete risk analysis', the following pop-up appears:
+Se clicar na ligação _Eliminar análise de risco_, aparece a seguinte janela emergente:
 
-image:DeleteRiskAnalysis_1_800.png[Export a Risk analysis]
+[#fig-deleteriskanalysis-1-800]
+.Janela emergente _Eliminar análise de risco_
+image::DeleteRiskAnalysis_1_800.png[Exportar uma análise de Risco,pdfwidth=62%,width=62%,align=center]
 
-Please note that the operation is irreversible.
+Tenha em atenção que a operação é irreversível.
 
-=== Method steps call
+[#method-steps-call]
+=== Acesso aos passos do método
 
 include::./MethodSteps.adoc[]
 
-=== Library
+<<<
+
+[#library]
+=== Biblioteca
 
 include::./Library.adoc[]
 
-===	Information Risks
+[#information-risks]
+=== Riscos de informação
 
 include::./InformationRisks.adoc[]
 
-=== Operational Risks
+[#operational-risks]
+=== Riscos operacionais
 
 include::./OperationalRisks.adoc[]
-
 
 
 

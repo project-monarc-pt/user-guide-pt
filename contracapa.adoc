@@ -1,0 +1,22 @@
+= Contracapa
+:notitle:
+:nofooter:
+:revnumber: 1.0
+
+[.text-center]
+image::CNCS_negativo.png[CNCS,pdfwidth=55mm,align="center"]
+
+'''
+
+[.text-center]
+*Guia do Utilizador MONARC*
+
+[.text-center]
+Versão {revnumber} — {docdate}
+
+[.text-center]
+Centro Nacional de Cibersegurança (CNCS)
+
+[.text-center]
+Suporte: [cncs@cncs.gov.pt] +
+Sítio Web: [www.cncs.gov.pt]

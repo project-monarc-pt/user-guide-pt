@@ -1,39 +1,47 @@
-To reach the Statement of applicability screen, please click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] on the right:
+Para chegar ao ecrã da _Declaração de aplicabilidade_, clique no menu contextual image:Menu.png[pdfwidth=4%,width=4%] à direita:
 
-image:StatementApplicability_1_800.png[Contextual Menu] 
+[#fig-statementapplicability-1-800]
+.Menu contextual
+image::StatementApplicability_1_800.png[Menu Contextual]
 
-Then, from the drop-down menu, choose the `Statement of applicability` menu item:
+Depois, no menu pendente, escolha o item de menu _Declaração de aplicabilidade_:
 
-image:StatementApplicability_2_800.png[Statement of applicability menu]
+[#fig-statementapplicability-2-800]
+.Item de menu _Declaração de aplicabilidade_
+image::StatementApplicability_2_800.png[Menu Declaração de aplicabilidade]
 
-The `Statement of applicabality` screen appears:
+Aparece o ecrã _Declaração de aplicabilidade_:
 
-image:StatementApplicability_3_800.png[Statement of applicability screen] 
+[#fig-statementapplicability-3-800]
+.Ecrã _Declaração de aplicabilidade_
+image::StatementApplicability_3_800.png[Ecrã Declaração de aplicabilidade]
 
-1. Choose the `referential` (ISO 27002, NIST Core, PCI DSS 4.0) on which one you want to work.
-2. The `code` is a clickable field, click on it and see all the risks attached to the security control selected.
-3. To choose whether the security control is included or excluded, simply click on the acronym. A description will appear when you hover over it with the cursor.
-4. The field `remarks/justification`, `Evidences`, `Actions` are text fields, just click on them and fill in the relevant cell.
-5. `Export` the selected view in CSV.
-6. `Import` information for the selected referential from another.
-7. The Level of compliance is a drop-down list.
+1. Escolha o _Referencial_ (ISO/IEC 27002:2022, NIST Core) com o qual pretende trabalhar.
+2. O _Código_ é um campo clicável; clique nele e veja todos os riscos associados ao controlo de segurança selecionado.
+3. Para escolher se o controlo de segurança é incluído ou excluído, basta clicar no acrónimo. Aparecerá uma descrição ao passar o cursor sobre ele.
+4. Os campos _Observações/Justificação_, _Evidências_, _Ações_ são campos de texto; basta clicar neles e preencher a célula relevante.
+5. _Exportar_ a vista selecionada em CSV.
+6. _Importar_ informação para o referencial selecionado a partir de outro.
+7. O _Nível de conformidade_ é uma lista pendente.
 
-The inclusion/exclusion acronyms are as follows:
+Os acrónimos de inclusão/exclusão são os seguintes:
 
-EX 	- Excluded
-CO	- Contractual obligations
-BP	- Best practices
-LR	- Legal requirements
-BR	- Business requirements
-RRA	- Results of risk assessment
+EX 	- Excluído
+CO	- Obrigações contratuais
+BP	- Boas práticas
+LR	- Requisitos legais
+BR	- Requisitos de negócio
+RRA	- Resultados da avaliação de risco
 
-If you click on the ‘Import from other referential’, the Import a statement of applicability (SOA) screen appears:
+Se clicar em _Importar a partir de outro referencial_, aparece o ecrã _Importar uma declaração de aplicabilidade (SOA)_:
 
-image:ImportSOA_1_800.png[Import a statement of applicability screen] 
+[#fig-importsoa-1-800]
+.Ecrã _Importar uma declaração de aplicabilidade (SOA)_
+image::ImportSOA_1_800.png[Ecrã Importar uma declaração de aplicabilidade]
 
-1.	Please `Read` the text before importing
-2.	Choose the `referential` which contains information that you want to convert into the selected one.
-3.	Choose import options
-4.	Clik on the `Import` button so  the information of the referential is imported.
+1.	Por favor, _Leia_ o texto antes de importar
+2.	Escolha o _Referencial_ que contém a informação que pretende converter para o selecionado.
+3.	Escolha as opções de importação
+4.	Clique no botão _Importar_ para que a informação do referencial seja importada.
 
 <<<

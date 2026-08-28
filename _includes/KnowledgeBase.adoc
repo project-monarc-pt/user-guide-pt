@@ -1,162 +1,200 @@
-The knowledge base menu is always accessible from the main view of MONARC.
+O menu da base de conhecimento está sempre acessível a partir da vista principal do MONARC.
 
-Click on the contextual menu image:Menu.png[pdfwidth=4%,width=4%] in the top right-hand corner of the screen and choose the submenu ‘Knowledge base’ from the list:
+Clique no menu de contexto image:Menu.png[pdfwidth=4%,width=4%] no canto superior direito do ecrã e escolha o submenu _Base de conhecimento_ a lista:
 
-image:KnowledgeBase_1_800.png[Knowledge Base Menu]
+[#fig-knowledgebase-1-800]
+.Menu da base de conhecimento
+image::KnowledgeBase_1_800.png[Menu da base de conhecimento,pdfwidth=85%,width=85%,align=center]
 
-All parameters are managed with the same view. The knowledge base has the following tabs:
+Todos os parâmetros são geridos com a mesma vista. A base de conhecimento tem os seguintes separadores:
 
-1.	Asset types
-2.	Threats
-3.	Vulnerabilities
-4.	Referentials
-5.	Information risks
-6.	Tags
-7.	Operational risks
-8.	Recommendation sets
+1.	Tipos de ativos
+2.	Ameaças
+3.	Vulnerabilidades
+4.	Referenciais
+5.	Riscos de informação
+6.	Etiquetas
+7.	Riscos operacionais
+8.	Conjuntos de recomendações
 
-In the User Guide, the tabs will be explained in the above order.
-The knowledge base opens with the ‘Asset types’ tab and contains the following main functionalities:
+No Guia do Utilizador, os separadores serão explicados pela ordem acima.
+A base de conhecimento abre com o separador _Tipos de ativo_ e contém as seguintes funcionalidades principais:
 
-image:KnowledgeBase_2_800M.png[Knowledge Base screen]
+[#fig-knowledgebase-2-800m]
+.Ecrã da base de conhecimento
+image::KnowledgeBase_2_800M.png[Ecrã da base de conhecimento,pdfwidth=85%,width=85%,align=center]
 
-1.	`Select` the desired parameter tab.
-2.	 Add a `parameter` according to the active tab.
-3.	`Search for` a parameter.
-4.	`Select` a parameter (for manipulation).
-5.	`Edit/delete` selected parameters.
-6.  `Show active only`: by clicking on the field, you may choose 'Show inactive only' or 'Show all'.
-7.  `Reset filter` : You may reset the filter to the original setting by clicking on the arrow turning to the left.
-8.  `Export CSV`: You can export the knowledge base objects by clicking on the downward pointing orange arrow. You can export (and later import) the complete Knowledge Base objects ether with the analysis data or without. 
-This way the Knowledge Base of the analysis can be shared. 
+1.	_Selecionar_ o separador de parâmetros pretendido.
+2.	 Adicionar um _parâmetro_ consoante o separador ativo.
+3.	_Pesquisar_ um parâmetro.
+4.	_Selecionar_ um parâmetro (para manipulação).
+5.	_Editar/eliminar_ os parâmetros selecionados.
+6.  _Mostrar apenas ativos_: ao clicar no campo, pode escolher _Mostrar apenas inativos_ ou _Mostrar tudo_.
+7.  _Repor o filtro_ : Pode repor o filtro na definição original clicando na seta que roda para a esquerda.
+8.  _Exportar CSV_: Pode exportar os objetos da base de conhecimento clicando na seta azul a apontar para baixo. Pode exportar (e mais tarde importar) os objetos completos da base de conhecimento, quer com os dados de análise, quer sem eles.
+Desta forma, a base de conhecimento da análise pode ser partilhada.
 
-Generally, all parameters have a code, label, and description
+Em geral, todos os parâmetros têm um código, uma etiqueta e uma descrição
 
-*	The code is used to categorize the parameter.
-*	The label is displayed in all MONARC views.
-*	The description is the label that typically appears in the tooltip.
+*	O código é usado para categorizar o parâmetro.
+*	A etiqueta é apresentada em todas as vistas do MONARC.
+*	A descrição é a etiqueta que normalmente aparece na dica de contexto.
 
-If you click on the ‘Add an asset’ icon, the ‘Add an asset type’ window appears.
-You can add assets by importing them from a file or from MOSP.
-If you choose to import an asset/assets from a file, the ’File import center’ appears.
+Se clicar no ícone _Adicionar um ativo_, aparece a janela _Adicionar um tipo de ativo_.
+Pode adicionar ativos importando-os a partir de um ficheiro ou do MOSP.
+Se optar por importar um ativo/ativos a partir de um ficheiro, aparece o _Centro de importação de ficheiros_.
 
-image:FileImportCenter_1_800.png[File import center]
+[#fig-fileimportcenter-1-800]
+.Janela _Centro de importação de ficheiros_
+image::FileImportCenter_1_800.png[Centro de importação de ficheiros,pdfwidth=90%,width=90%,align=center]
 
-1.	You can choose a file to upload it.
-2.	You can get information on the form and content requirements related to the file to be uploaded.
-3.	You can import the file.
+1.	Pode escolher um ficheiro para o carregar.
+2.	Pode obter informações sobre os requisitos de forma e conteúdo relacionados com o ficheiro a carregar.
+3.	Pode importar o ficheiro.
 
-If you click on the ‘I’ icon, the File Schema popup appears, which provides additional information about the mandatory fields to populate when creating a file to be uploaded.
+Se clicar no ícone image:information.png[Editar,pdfwidth=4%,width=4%], aparece a janela emergente do esquema de ficheiros, que fornece informações adicionais sobre os campos obrigatórios a preencher ao criar um ficheiro a carregar.
 
-image:FileImportCenter_2_800.png[File import center]
+[#fig-fileimportcenter-2-800]
+.Esquema de ficheiros do _Centro de importação de ficheiros_
+image::FileImportCenter_2_800.png[Centro de importação de ficheiros,pdfwidth=90%,width=90%,align=center]
 
-== Selecting assets separately or as a group
+== Selecionar ativos individualmente ou em grupo
 
-You can select assets separately by clicking on the checkbox in front of the relevant asset (1), or you can select all the assets in the list by choosing the top checkbox next to the column header called ‘Status’ (2).
+Pode selecionar ativos individualmente clicando na caixa de seleção em frente ao ativo relevante (1), ou pode selecionar todos os ativos da lista escolhendo a caixa de seleção do topo, junto ao cabeçalho da coluna chamada _Estado_ (2).
 
-image:KnowledgeBase_3_800.png[Selecting assets]
+[#fig-knowledgebase-3-800]
+.Selecionar ativos individualmente ou em grupo
+image::KnowledgeBase_3_800.png[Selecionar ativos,pdfwidth=90%,width=90%,align=center]
 
-=== Type of assets
+[#type-of-assets]
+=== Tipo de ativos
 
-There are two types of assets:
+Existem dois tipos de ativos:
 
-*	Primary or business assets: They generally represent, but are not limited to, internal or external services, processes or information. They are the ones that are at the root of the analysis and that will decline their impact on other assets. The containers used to organize the analysis visually are declared as a primary asset (e.g. Back Office).
-*	Secondary or supporting assets: These are the assets on which risks are associated, they are used to describe the risk profile of the primary assets.
+*	Ativos primários ou de negócio: Geralmente representam, mas não se limitam a, serviços, processos ou informação internos ou externos. São os que estão na raiz da análise e que irão diminuir o seu impacto sobre outros ativos. Os contentores usados para organizar visualmente a análise são declarados como ativo primário (por exemplo, __Back Office__).
+*	Ativos secundários ou de suporte: São os ativos aos quais os riscos estão associados; são usados para descrever o perfil de risco dos ativos primários.
 
-=== Threats
+=== Ameaças
 
-The essential parameters of threat threats are in alignment with the CIA criteria. It is important when creating a new threat to properly specify these criteria, because they will influence the risk tables.
-Example: Passive listening (listening, watching without touching anything) is a threat, for example, that affects only the criterion of confidentiality.
-Threats have themes to generate statistics.
+Os parâmetros essenciais das ameaças estão alinhados com os critérios CID. É importante, ao criar uma nova ameaça, especificar corretamente estes critérios, porque influenciarão as tabelas de risco.
+Exemplo: A escuta passiva (ouvir, observar sem tocar em nada) é uma ameaça que, por exemplo, afeta apenas o critério de confidencialidade.
+As ameaças têm temas para gerar estatísticas.
 
-The screenshot below shows an example of what the Threats table looks like. As you can see, its structure is very similar to that of the Asset types table, and you can perform the same operations with the elements.
+A captura de ecrã abaixo mostra um exemplo do aspeto da tabela de ameaças. Como pode ver, a sua estrutura é muito semelhante à da tabela de tipos de ativos, e pode realizar as mesmas operações com os elementos.
 
-image:ThreatsTable_1_800.png[Threats Table]
+[#fig-threatstable-1-800]
+.Tabela de ameaças
+image::ThreatsTable_1_800.png[Tabela de ameaças,pdfwidth=90%,width=90%,align=center]
 
-===	Vulnerabilities
+===	Vulnerabilidades
 
-Vulnerabilities must negatively describe the risk context. The greater the vulnerability, the less existing or effective the measures are. Vulnerability is inverse to maturity.
-Example: "Absence of identification of sensitive goods": Low vulnerability if the sensitive goods are identified and vice versa, the vulnerability is great if they are not.
-The description of the vulnerability is very important because it appears in the risk table as an additional description that helps the security specialist refine a questionnaire or the precise points that are sought about a risk.
+As vulnerabilidades devem descrever negativamente o contexto de risco. Quanto maior a vulnerabilidade, menos existentes ou eficazes são as medidas. A vulnerabilidade é inversa à maturidade.
+Exemplo: «Ausência de identificação de bens sensíveis»: Baixa vulnerabilidade se os bens sensíveis estiverem identificados e, inversamente, a vulnerabilidade é grande se não estiverem.
+A descrição da vulnerabilidade é muito importante porque aparece na tabela de risco como uma descrição adicional que ajuda o especialista de segurança a refinar um questionário ou os pontos precisos que se procuram acerca de um risco.
 
-The screenshot below shows an example of what the Vulnerabilities table looks like. As you can see, its structure is very similar to that of the Asset types table, and you can perform the same operations with the elements.
+A captura de ecrã abaixo mostra um exemplo do aspeto da tabela de vulnerabilidades. Como pode ver, a sua estrutura é muito semelhante à da tabela de tipos de ativos, e pode realizar as mesmas operações com os elementos.
 
-image:VulnerabilitiesTable_1_800.png[Vulnerabilities Table]
+[#fig-vulnerabilitiestable-1-800]
+.Tabela de vulnerabilidades
+image::VulnerabilitiesTable_1_800.png[Tabela de vulnerabilidades,pdfwidth=90%,width=90%,align=center]
 
-===	Referentials
+    
+===	Referenciais
 
-It is a repository used by default to assist in the implementation of controls for managing a specific risk.
+É um repositório usado por predefinição para auxiliar na implementação de controlos para a gestão de um risco específico.
 
-image:ReferentialsTable_1_800.png[Referentials Table]
+[#fig-referentialstable-1-800]
+.Tabela de referenciais
+image::ReferentialsTable_1_800.png[Tabela de referenciais,pdfwidth=90%,width=90%,align=center]
 
-1.	This area is dedicated to managing the selection of referential. On the right, there are the standard buttons to edit, add, and delete a referential.
-2.	This new icon appears when you have two referentials. It allows you to add, import or export matching between the selected referential and the others.
-3.	This area is dedicated to managing security controls of the selected referential.
+1.	Esta área é dedicada à gestão da seleção do referencial. À direita, encontram-se os botões padrão para editar, adicionar e eliminar um referencial.
+2.	Este novo ícone aparece quando tem dois referenciais. Permite adicionar, importar ou exportar a correspondência entre o referencial selecionado e os outros.
+3.	Esta área é dedicada à gestão dos controlos de segurança do referencial selecionado.
 
-=== Information Risks
+<<<
+    
+=== Riscos de informação
 
-This table is the core of MONARC's knowledge base. This is where associations between 'Asset Type,' 'Threat,' and 'Vulnerability' are made.
-The combination of risks inherent to each asset will be proposed by default when the risk model is created.
-For each association, which can be considered a risk scenario, it is possible to link security measures from the referentials tabs.
-Only supporting assets are available for Threat/Vulnerability associations.
+Esta tabela é o núcleo da base de conhecimento do MONARC. É aqui que se fazem as associações entre _Tipo de ativo_, _Ameaça_ e _Vulnerabilidade_.
+A combinação de riscos inerentes a cada ativo será proposta por predefinição quando o modelo de risco é criado.
+Para cada associação, que pode ser considerada um cenário de risco, é possível associar medidas de segurança a partir dos separadores de referenciais.
+Apenas os ativos de suporte estão disponíveis para associações Ameaça/Vulnerabilidade.
 
-image:InformationRisk_1_800.png[Information Risk Table]
+[#fig-informationrisk-1-800]
+.Tabela de riscos de informação
+image::InformationRisk_1_800.png[Tabela de riscos de informação,pdfwidth=90%,width=90%,align=center]
 
-It is possible to switch between referentials to see their linked controls of the risks shown below.
-Use the down-pointing arrow, so you can choose between the options that appear.
+É possível alternar entre referenciais para ver os respetivos controlos associados aos riscos apresentados abaixo.
+Use a seta a apontar para baixo, para poder escolher entre as opções que aparecem.
 
-image:InformationRisk_2.png[Information Risk Table]
+[#fig-informationrisk-2]
+.Alternar entre referenciais na tabela de riscos de informação
+image::InformationRisk_2.png[Tabela de riscos de informação,pdfwidth=90%,width=90%,align=center]
 
-This new icon (Update controls) appears when you have two referentials.
-It allows you to automatically linked controls of a referential to risks. It uses the matching defined in the step before.
+Este novo ícone (_Controlos de atualização_) aparece quando tem dois referenciais.
+Permite associar automaticamente os controlos de um referencial aos riscos. Utiliza a correspondência definida no passo anterior.
 
-image:InformationRisk_3.png[Update controls]
+[#fig-informationrisk-3]
+.Ícone _Controlos de atualização_
+image::InformationRisk_3.png[Update controls,pdfwidth=90%,width=90%,align=center]
 
-The Update controls popup opens, where you can use two drop-down menus to match two referentials.
+A janela emergente _Controlos de atualização_ abre-se, onde pode usar dois menus pendentes para fazer corresponder dois referenciais.
 
-image:InformationRisk_4_800.png[Update controls]
+[#fig-informationrisk-4-800]
+.Janela emergente _Controlos de atualização_
+image::InformationRisk_4_800.png[Update controls,pdfwidth=90%,width=90%,align=center]
 
-1.	The first referential is the one which you want to link to the risks.
-2.	The second is the source you want to use (it has taken risks linked to its controls).
+1.	O primeiro referencial é aquele que pretende associar aos riscos.
+2.	O segundo é a fonte que pretende utilizar (que tem os riscos associados aos seus controlos).
 
-=== Tags (Operational Risks)
+=== Etiquetas (Riscos operacionais)
 
-The layout of the Tags table is very similar to the previous ones.
-Just like with the tables described above, you can add an element (tags), search among elements, reset the filters, or export the items as a CSV file.
+A disposição da tabela de etiquetas é muito semelhante às anteriores.
+Tal como nas tabelas descritas acima, pode adicionar um elemento (etiquetas), pesquisar entre elementos, repor os filtros ou exportar os itens como ficheiro CSV.
 
-Tags represent a categorization of operational risks. It is a logical grouping of risks that can then be associated with primary assets.
+As etiquetas representam uma categorização dos riscos operacionais. É um agrupamento lógico de riscos que podem depois ser associados a ativos primários.
 
-image:TagsTable_1_800.png[Update controls]
+[#fig-tagstable-1-800]
+.Tabela de etiquetas
+image::TagsTable_1_800.png[Update controls,pdfwidth=90%,width=90%,align=center]
 
-=== Operational Risks
+=== Riscos operacionais
 
-It is a list of risks created by default or added specifically. Each risk can be associated with one or more tags, which allows, when depositing an asset in the analysis to propose default risks, as for the risks of the information.
-It is possible to link security controls to the risks of the information.
+É uma lista de riscos criados por predefinição ou adicionados especificamente. Cada risco pode ser associado a uma ou mais etiquetas, o que permite, ao depositar um ativo na análise, propor riscos predefinidos, tal como acontece com os riscos de informação.
+É possível associar controlos de segurança aos riscos de informação.
 
-image:OperationalRisksTable_1_800.png[Operational Risks]
+[#fig-operationalriskstable-1-800]
+.Tabela de riscos operacionais
+image::OperationalRisksTable_1_800.png[Riscos operacionais,pdfwidth=90%,width=90%,align=center]
 
-1.	Add an operational risk
-2.	Search among operational risks
-3.	Filter among tags
-4.	Choose between standards (ISO 27002, NIST Core, etc.)
-5.	Reset filters
-6.	Update controls
-7.	Export into a CSV file
+1.	Adicionar um risco operacional
+2.	Pesquisar entre os riscos operacionais
+3.	Filtrar entre etiquetas
+4.	Escolher entre normas (ISO 27002, NIST Core, etc.)
+5.	Repor filtros
+6.	Controlos de atualização
+7.	Exportar para um ficheiro CSV
 
-=== Recommendations Sets
+=== Conjuntos de recomendações
 
-The Recommendations Sets table is the repository that is used by default to manage the recommendations.
+A tabela de conjuntos de recomendações é o repositório usado por predefinição para gerir as recomendações.
 
-image:RecommendationsTable_1_800.png[Recommendations Sets table]
+[#fig-recommendationstable-1-800]
+.Tabela de conjuntos de recomendações
+image::RecommendationsTable_1_800.png[Tabela de conjuntos de recomendações,pdfwidth=90%,width=90%,align=center]
 
-1.	Add, edit, or delete a recommendation
-2.	Search among the recommendations
-3.	A drop-down menu to choose from to ‘Show all, only the inactive, or only the active  recommendations
-4.	Reset filters
-5.	Export recommendations as a CSV file
+1.	Adicionar, editar ou eliminar uma recomendação
+2.	Pesquisar entre as recomendações
+3.	Um menu pendente para escolher entre _Mostrar tudo_, apenas as inativas ou apenas as recomendações ativas
+4.	Repor filtros
+5.	Exportar as recomendações como ficheiro CSV
 
-When you click on the pencil icon, the ‘Edit a recommendation’ window pops up. There, you can check the meaning of the column ‘Importance’.
+<<<
+    
+Quando clica no ícone do lápis, aparece a janela _Editar uma recomendação_. Aí, pode verificar o significado da coluna _Importância_.
 
-image:EditRecommendations_1_800.png[Edit Recommendations table]
+[#fig-editrecommendations-1-800]
+.Janela _Editar uma recomendação_
+image::EditRecommendations_1_800.png[Tabela Editar recomendações,pdfwidth=90%,width=90%,align=center]
 
 <<<

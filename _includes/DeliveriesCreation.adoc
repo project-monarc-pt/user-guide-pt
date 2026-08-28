@@ -1,194 +1,243 @@
-In MONARC, you can generate different deliverables (templates) tailored to each organization.
+No MONARC, pode gerar diferentes entregáveis (_templates_) adaptados a cada organização.
 
-These deliverables are called ‘templates’ within the application. To access the ‘Deliverable templates’ screen, click on the gear icon in the upper right-hand corner and then choose the third submenu called ‘Deliverable templates’.
+Estes entregáveis são designados por _templates_ dentro da aplicação. Para aceder ao ecrã _Templates de entregável_, clique no ícone de engrenagem no canto superior direito e escolha o terceiro submenu, denominado _Templates de entregável_.
 
-image:DeliverableTemplates_1_750.png[Deliverable templates menu]
+[#fig-deliverabletemplates-1-750]
+.Menu _Templates de entregável_
+image::DeliverableTemplates_1_750.png[Menu de templates de entregável]
 
-The ‘Deliverable templates’ screen appears which summarizes all the available templates:
+<<<
 
-image:DeliverableTemplates_2_800.png[Deliverable templates screen]
+Surge o ecrã _Templates de entregável_, que resume todos os _templates_ disponíveis:
 
-This view summarizes all the available templates. You can perform the following actions on this screen:
+[#fig-deliverabletemplates-2-800]
+.Ecrã _Templates de entregável_
+image::DeliverableTemplates_2_800.png[Ecrã de templates de entregável,pdfwidth=85%,width=85%,align=center]
 
-1. `Add` a new template.
-2. `Download` a template.
-3. `Edit` a template. The view for editing a template is the same as one for adding one. This view is explained below.
-4. `Delete` a template. This action permanently deletes the template for all the users of the company.
+Esta vista resume todos os _templates_ disponíveis. Pode efetuar as seguintes ações neste ecrã:
 
-WARNING: The default templates are only downloadable, they cannot be modified or deleted.
+1. _Adicionar_ um novo _template_.
+2. _Transferir_ um _template_.
+3. _Editar_ um _template_. A vista para editar um _template_ é igual à de adicionar um. Esta vista é explicada abaixo.
+4. _Eliminar_ um _template_. Esta ação elimina permanentemente o _template_ para todos os utilizadores da empresa.
 
-===== Add a new template
+WARNING: Os _templates_ predefinidos só podem ser transferidos; não podem ser modificados nem eliminados.
 
-Click on the ‘Add a new template’ button. The following screen appears:
+<<<
 
-image:DeliverableTemplates_3_800.png[Add a new template]
+===== Adicionar um novo template
 
-1. Select the `Category` of the template. The category is linked to the different step of the method.
-2. Select the `Language` associated with the template.
-3. Fill in the `Description` of the new template.
-4. Click on the grey area or drag and drop a document on the grey area to `Upload` the template.
+Clique no botão _Adicionar um novo template_. Surge o seguinte ecrã:
 
-NOTE: You don't have to fill all the languages, one language is sufficient.
+[#fig-deliverabletemplates-3-800]
+.Adicionar um novo _template_
+image::DeliverableTemplates_3_800.png[Adicionar um novo template,pdfwidth=85%,width=85%,align=center]
 
-Once you have finised the above steps, click on the 'Create' button in the lower right-hand corner.
+1. Selecione a _Categoria_ do _template_. A categoria está associada às diferentes etapas do método.
+2. Selecione o _Idioma_ associado ao _template_.
+3. Preencha a _Descrição_ do novo _template_.
+4. Clique na área cinzenta ou arraste e largue um documento sobre a área cinzenta para _Carregar_ o _template_.
 
-image:DeliverableTemplates_4_800.png[Create context validation template]
+NOTE: Não tem de preencher todos os idiomas; um idioma é suficiente.
 
-The newly-created template (Test template for context validation) appears on the list within the category (in this case in the Deliverable template for context validation category) you have selected in the deliverable template making process.
+Após concluir os passos acima, clique no botão _Criar_ no canto inferior direito.
 
-image:DeliverableTemplates_5_800.png[The context validation template appears]
+[#fig-deliverabletemplates-4-800]
+.Criar _template_ de validação do contexto
+image::DeliverableTemplates_4_800.png[Criar template de validação do contexto,pdfwidth=85%,width=85%,align=center]
 
-===== List of tags
+O _template_ recém-criado (_Template de teste para validação do contexto_) surge na lista dentro da categoria (neste caso, na categoria _Template de entregável para validação do contexto_) que selecionou durante o processo de criação do _template_ de entregável.
 
-MONARC allows you to add your delivery template. The template is a document which uses different tags.
+[#fig-deliverabletemplates-5-800]
+.O _template_ de validação do contexto surge na lista
+image::DeliverableTemplates_5_800.png[O template de validação de contexto surge,pdfwidth=85%,width=85%,align=center]
 
-NOTE: All the deliverables in MONARC have to be set in Word Format (.docx)
+===== Lista de etiquetas
 
-====== List of tags for the layout of the document:
+O MONARC permite-lhe adicionar o seu _template_ de entregável. O _template_ é um documento que utiliza diferentes etiquetas.
 
-All these tags are mainly set in the form depending on the delivery.
-Open a risk analysis and click on the green icon (1) representing the first step as ‘Context Establishment’.
+NOTE: Todos os entregáveis no MONARC têm de estar em formato Word (.docx)
 
-image:ContextEstablishment_1_800.png[Context Establishment step 1]
+====== Lista de etiquetas para a disposição do documento:
 
-Then, to open the ‘Deliverable’ window, click on the ‘Deliverable: Context validation’ link in the lower left-hand corner.
+Todas estas etiquetas são definidas principalmente no formulário, consoante o entregável.
+Abra uma análise de risco e clique no ícone verde (1) que representa a primeira etapa, _Estabelecimento de contexto_.
 
-image:ContextModeling_2_800.png[Deliverable window]
+[#fig-contextestablishment-1-800]
+.Etapa 1 - _Estabelecimento de contexto_
+image::ContextEstablishment_1_800.png[Etapa 1 de estabelecimento do contexto,pdfwidth=85%,width=85%,align=center]
 
-1. `${STATE}`: The status of the document with prefilled value (draft or final).
-2. `${TEMPLATE}`:The template you have chosen.
-3. `${VERSION}`: The version of the document.
-4. `${CLASSIFICATION}`: The classification of the document.
-5. `${DOCUMENT NAME}`: The name of the document.
-6. `${CLIENT MANAGER(S)}`: The name of the customer(s).
-7. `${SECURITY CONSULTANT(S)}`: The name(s) of the security consultant(s) who do(es) the analysis.
+<<<
 
-There are also two other tags which are generated by the application :
+Depois, para abrir a janela _Entregável_, clique na ligação _Entregável: Validação do contexto_ no canto inferior esquerdo.
 
-• `${COMPANY}`: Name of the company which comes from MONARC, it’s stored in the database and editable in the application.
-• `${DATE}`: Date of the generation of the document. Field auto-generated by MONARC.
+[#fig-contextmodeling-2-800]
+.Janela _Entregável_
+image::ContextModeling_2_800.png[Janela de entregável,pdfwidth=85%,width=85%,align=center]
 
-====== List of the tags from the context establishment:
+1. `${STATE}`: O estado do documento, com valor pré-preenchido (draft ou final).
+2. `${TEMPLATE}`: O _template_ que escolheu.
+3. `${VERSION}`: A versão do documento.
+4. `${CLASSIFICATION}`: A classificação do documento.
+5. `${DOCUMENT NAME}`: O nome do documento.
+6. `${CLIENT MANAGER(S)}`: O nome do(s) cliente(s).
+7. `${SECURITY CONSULTANT(S)}`: O(s) nome(s) do(s) consultor(es) de segurança que realiza(m) a análise.
 
-image:ContextEstablishment_2_800.png[Context Establishment step 2]
+Existem ainda duas outras etiquetas geradas pela aplicação:
 
-1. `${CONTEXT_ANA_RISK}`: Free text which comes from the step: “Risk analysis context”.
-2. List of the tags from "Evaluation of Trends and Threat, and synthesis":
-* `${SYNTH_EVAL_THREAT}`: The summary of the step: “Evaluation of Trends and Threat, and synthesis”.
-* `${TABLE_THREATS}`: A summary of the threat assessment.
-* `${TABLE_EVAL_TEND}`: The trend assessment with the questions which are answered.
-* `${TABLE_THREATS_FULL}`: The full threat assessment.
-3. `${CONTEXT_GEST_RISK}`: Free text which comes from the step: “Risk management organization”.
-4. List of the tags from “Definition of the risk evaluation criteria”:
-* `${SCALE_IMPACT}`: The table of the impact scale.
-* `${SCALE_THREAT}`: The table of the threats scale.
-* `${SCALE_VULN}`: The table of the vulnerabilities scale.
-* `${TABLE_RISKS}`: The table of the information risk acceptance threshold.
+• `${COMPANY}`: Nome da empresa proveniente do MONARC; está armazenado na base de dados e é editável na aplicação.
+• `${DATE}`: Data de geração do documento. Campo gerado automaticamente pelo MONARC.
+
+<<<
+
+====== Lista de etiquetas do estabelecimento do contexto:
+
+[#fig-contextestablishment-2-800]
+.Etapa 2 - _Estabelecimento de contexto_
+image::ContextEstablishment_2_800.png[Etapa 2 de estabelecimento do contexto,pdfwidth=85%,width=85%,align=center]
+
+1. `${CONTEXT_ANA_RISK}`: Texto livre proveniente da etapa: _Contexto da análise de risco_.
+2. Lista de etiquetas de _Avaliação de tendências e ameaças, e síntese_:
+* `${SYNTH_EVAL_THREAT}`: O resumo da etapa: _Avaliação de tendências e ameaças, e síntese_.
+* `${TABLE_THREATS}`: Um resumo da avaliação das ameaças.
+* `${TABLE_EVAL_TEND}`: A avaliação de tendências com as perguntas respondidas.
+* `${TABLE_THREATS_FULL}`: A avaliação completa das ameaças.
+3. `${CONTEXT_GEST_RISK}`: Texto livre proveniente da etapa: _Organização da gestão dos riscos_.
+4. Lista de etiquetas de _Definição dos critérios de avaliação do risco_:
+* `${SCALE_IMPACT}`: A tabela da escala de impacto.
+* `${SCALE_THREAT}`: A tabela da escala de ameaças.
+* `${SCALE_VULN}`: A tabela da escala de vulnerabilidades.
+* `${TABLE_RISKS}`: A tabela do limiar de aceitação dos riscos de informação.
 
 
-====== List of tags for the context modeling:
+====== Lista de etiquetas para a modelação do contexto:
 
-image:CM_800.png[Context modeling]
+[#fig-cm-800]
+.Modelação do contexto
+image::CM_800.png[Modelação do contexto,pdfwidth=85%,width=85%,align=center]
 
-1. Identification of assets, vulnerabilities and impacts appreciation
-2. Synthesis of assets/impacts
+1. Identificação de ativos, vulnerabilidades e avaliação dos impactos
 
-* `${SYNTH_ACTIF}`: Free text which comes from the step: “synthesis of assets/impacts”.
+<<<
+    
+[start=2]    
+. Síntese de ativos/impactos
+
+* `${SYNTH_ACTIF}`: Texto livre proveniente da etapa: _síntese de ativos/impactos_.
 
 [start=1]
-* `${IMPACTS_APPRECIATION}`: A table which is generated by MONARC. It represents the impacts/consequences of the top-level assets.
+* `${IMPACTS_APPRECIATION}`: Uma tabela gerada pelo MONARC. Representa os impactos/consequências dos ativos de nível superior.
 
-====== List of the tags for the Evaluation and treatment of risks:
+====== Lista de etiquetas para a Avaliação e tratamento de riscos:
 
-image:ContextModeling_2_800.png[Context modeling deliverable]
+[#fig-contextmodeling-2-800-2]
+.Entregável de modelação do contexto
+image::ContextModeling_2_800.png[Entregável de modelação do contexto,pdfwidth=85%,width=85%,align=center]
 
-1. Status: The status can be ‘Draft’ or ‘Final’
-2. Template: From the dropdown menu, please choose a template you want to use
-3. Version:
-4. Classification:
-5. Document name:
-6. Client manager(s)
-7. Security consultant(s)
+1. Estado: O estado pode ser _Draft_ ou _Final_
+2. Modelo: No menu pendente, escolha o _template_ que pretende utilizar
+3. Versão:
+4. Classificação:
+5. Nome do documento:
+6. Responsavel(is) de cliente(s)
+7. Consultor(es) de segurança
 
-image:DeliveriesEvaluationRiskTag_1_800.png[Deliveries Evaluation Risk Tag]
+[#fig-deliveriesevaluationrisktag-1-800]
+.Etiquetas de avaliação de risco dos entregáveis
+image::DeliveriesEvaluationRiskTag_1_800.png[Etiqueta de avaliação de risco dos entregáveis,pdfwidth=85%,width=85%,align=center]
 
-1. `${SUMMARY_EVAL_RISK}`: Free text which comes from the form.
+1. `${SUMMARY_EVAL_RISK}`: Texto livre proveniente do formulário.
 
-List of the tags generated by MONARC :
+Lista de etiquetas geradas pelo MONARC:
 
-* `${CURRENT_RISK_MAP}`: Table which represents the distribution of the current risks.
-* `${TARGET_RISK_MAP}`: Table which represents the distribution of the targeted risks.
-* `${DISTRIB_EVAL_RISK}`: A text which represents the distribution of the risks by levels.
-* `${GRAPH_EVAL_RISK}`: A graph which represents the `${DISTRIB_EVAL_RISK}`
-* `${RISKS_RECO_FULL}`: A table which represents the recommendation for the information risks
-* `${OPRISKS_RECO_FULL}`: A table which represents the recommendation for the operational risks
-* `${TABLE_AUDIT_INSTANCES}`: A table with all the informational risks.
-* `${TABLE_AUDIT_RISKS_OP}`: A table with all the operational risks.
+* `${CURRENT_RISK_MAP}`: Tabela que representa a distribuição dos riscos atuais.
+* `${TARGET_RISK_MAP}`: Tabela que representa a distribuição dos riscos pretendidos.
+* `${DISTRIB_EVAL_RISK}`: Um texto que representa a distribuição dos riscos por níveis.
+* `${GRAPH_EVAL_RISK}`: Um gráfico que representa o `${DISTRIB_EVAL_RISK}`
+* `${RISKS_RECO_FULL}`: Uma tabela que representa as recomendações para os riscos de informação
+* `${OPRISKS_RECO_FULL}`: Uma tabela que representa as recomendações para os riscos operacionais
+* `${TABLE_AUDIT_INSTANCES}`: Uma tabela com todos os riscos de informação.
+* `${TABLE_AUDIT_RISKS_OP}`: Uma tabela com todos os riscos operacionais.
 
-====== List of the tags for Implementation and monitoring:
-List of tags generated by MONARC :
+<<<
 
-* `${TABLE_IMPLEMENTATION_PLAN}`: Table which shows all the recommendations to implement.
-* `${TABLE_IMPLEMENTATION_HISTORY}`: Table which shows all the implemented recommendations.
+====== Lista de etiquetas para a Implementação e monitorização:
+Lista de etiquetas geradas pelo MONARC:
 
-====== List of the tags for the annexes:
-Some tags are linked to other functionality of MONARC like:
+* `${TABLE_IMPLEMENTATION_PLAN}`: Tabela que mostra todas as recomendações a implementar.
+* `${TABLE_IMPLEMENTATION_HISTORY}`: Tabela que mostra todas as recomendações implementadas.
 
-* `${TABLE_INTERVIEW}`: The list of all the interviews.
+====== Lista de etiquetas para os anexos:
+Algumas etiquetas estão associadas a outras funcionalidades do MONARC, como:
+
+* `${TABLE_INTERVIEW}`: A lista de todas as entrevistas.
 
 
-====== User account
+[#user-account]
+====== Conta de utilizador
 
-To get to the ‘My account’ page, click on the second icon in the top right-hand corner of the application:
+Para chegar à página _A minha conta_, clique no segundo ícone no canto superior direito da aplicação:
 
-image:UserAccount_1.png[User account]
+[#fig-useraccount-1]
+.Ícone de acesso à conta de utilizador
+image::UserAccount_1.png[Conta de utilizador]
 
-The ‘My account’ page appears which has three sections
+Surge a página _A minha conta_, que tem três secções
 
-• Personal information
-• Security
-• Danger zone
+• Informação pessoal
+• Segurança
+• Zona de perigo
 
-====== Personal information
+====== Informação pessoal
 
-The Personal information section stores the first name, the last name and the email address of the user.
-You can also create a MOSP account by clicking on the person plus icon in the far right as indicated in the below screenshot:
+A secção _Informação pessoal_ armazena o primeiro nome, o apelido e o endereço de email do utilizador.
+Também pode criar uma conta MOSP clicando no ícone de pessoa com sinal de mais, na extremidade direita, conforme indicado na captura de ecrã abaixo:
 
-image:UserAccount_2_800.png[Create a MOSP user account]
+[#fig-useraccount-2-800]
+.Criar uma conta de utilizador MOSP
+image::UserAccount_2_800.png[Criar uma conta de utilizador MOSP,pdfwidth=85%,width=85%,align=center]
 
-====== Security
+<<<
 
-In the security section, you can create a new password and set up two-factor authentication.
-Once you typed in your new password, click on the ‘Update password’ button.
+====== Segurança
 
-image:UserAccount_3_800.png[User account - security set up]
+Na secção de segurança, pode criar uma nova palavra-passe e configurar a autenticação de dois fatores.
+Depois de introduzir a sua nova palavra-passe, clique no botão _Atualizar palavra-passe_.
 
-Click on the ‘Set up’ button at the bottom of this section to set up your two-factor authentication.
-If you click on the ‘Set up’ button, the ‘Activate two-factor authentication’ screen appears:
+[#fig-useraccount-3-800]
+.Conta de utilizador - configuração de segurança
+image::UserAccount_3_800.png[Conta de utilizador - configuração de segurança,pdfwidth=85%,width=85%,align=center]
 
-image:UserAccount_4_800.png[User account - activate 2FA]
+Clique no botão _Configurar_ na parte inferior desta secção para configurar a sua autenticação de dois fatores.
+Se clicar no botão _Configurar_, surge o ecrã _Ativar a autenticação de dois fatores_:
 
-Please scan the QR code with your phone and follow the steps to set up 2FA.
+[#fig-useraccount-4-800]
+.Conta de utilizador - ativar a 2FA
+image::UserAccount_4_800.png[Conta de utilizador - ativar 2FA,pdfwidth=85%,width=85%,align=center]
 
-====== Danger zone
+Leia o código QR com o seu telemóvel e siga os passos para configurar a 2FA.
 
-The third section is called the ‘Danger zone’. This is where you can delete your account.
+====== Zona de perigo
 
-image:UserAccount_5_800.png[User account - delete account]
+A terceira secção é a _Zona de perigo_. É aqui que pode eliminar a sua conta.
 
-====== Interface language
+[#fig-useraccount-5-800]
+.Conta de utilizador - eliminar conta
+image::UserAccount_5_800.png[Conta de utilizador - eliminar conta]
 
-To change the ‘Interface language’, click on the third icon in the top right-hand corner of the application and choose your preferred language from the dropdown menu.
+[#interface-language]
+====== Idioma da interface
 
-image:UserAccount_1.png[Language selector]
+Para alterar o _Idioma da interface_, clique no terceiro ícone no canto superior direito da aplicação e escolha o seu idioma preferido no menu pendente.
 
-There are five interface languages in the system as follows:
+[#fig-useraccount-1-2]
+.Seletor de _Idioma da interface_
+image::UserAccount_1.png[Seletor de idioma]
 
-• French
-• English
-• German
-• Dutch
-• Spanish
+Existem dois idiomas de interface no sistema, conforme descrito a seguir:
+
+• Português
+• Inglês
 
 [NOTE]
-This action only changes the interfaces language (The risk analysis language is not modified).
+Esta ação altera apenas o idioma das interfaces (o idioma da análise de risco não é modificado).

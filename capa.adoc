@@ -1,0 +1,15 @@
+= Guia Técnico MONARC
+:notitle:
+
+[.text-center]
+image::CNCS_negativo.png[CNCS,pdfwidth=82mm,align="center"]
+
+[.coverspacer]
+{nbsp}
+
+[.covertitle]
+Guia do Utilizador MONARC
+
+[.coversubtitle]
+Documentação de utilização do MONARC
+

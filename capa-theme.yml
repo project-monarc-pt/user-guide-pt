@@ -1,0 +1,52 @@
+# Tema dedicado à capa (front cover): página A4 inteira, fundo teal CNCS,
+# logótipo branco ao centro-topo, título grande branco alinhado à esquerda,
+# subtítulo por baixo e data no canto inferior direito (rodapé).
+# Aproxima o formato da capa do "Manual de Utilizador" (MyCiber).
+extends: default
+font:
+  catalog:
+    merge: true
+    Arial:
+      normal: arial-regular.ttf
+      bold: arial-bold.ttf
+      italic: arial-italic.ttf
+      bold_italic: arial-bold_italic.ttf
+page:
+  background_color: 308AA1
+  layout: portrait
+  size: A4
+  margin: [0.9in, 0.9in, 0.9in, 1.1in]
+base:
+  font_family: Arial
+  font_color: FFFFFF
+  align: left
+role:
+  covertitle:
+    font_size: 40
+    font_style: bold
+    font_color: FFFFFF
+    text_align: left
+  coversubtitle:
+    font_size: 17
+    font_color: FFFFFF
+    text_align: left
+  coverspacer:
+    font_size: 150
+    font_color: 308AA1
+footer:
+  font_size: 11
+  font_color: FFFFFF
+  border_width: 0
+  height: 1in
+  padding: [0, 0.35in, 0.35in, 0.35in]
+  vertical_align: bottom
+  recto:
+    left:
+      content: ''
+    right:
+      content: '{docdate}'
+  verso:
+    left:
+      content: ''
+    right:
+      content: '{docdate}'
